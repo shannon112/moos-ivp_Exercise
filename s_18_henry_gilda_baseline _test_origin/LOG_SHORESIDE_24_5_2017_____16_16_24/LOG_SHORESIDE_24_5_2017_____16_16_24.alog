@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./LOG_SHORESIDE_24_5_2017_____16_16_24/LOG_SHORESIDE_24_5_2017_____16_16_24.alog
+%% FILE OPENED ON  Thu Jan  1 08:00:00 1970
+%% LOGSTART               14956137848.7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-127.699        HELM_MAP_CLEAR       pMarineViewer   0.00000      
+-127.699        PMV_CONNECT          pMarineViewer   0.00000      
+-124.179        PSHARE_CMD           uFldShoreBroker cmd=output,src_name=NODE_REPORT_HENRY,dest_name=NODE_REPORT,route=localhost:9302 
+-123.111        APPCAST_REQ_GILDA    uMAC_1062       node=gilda,app=all,duration=0.1,key=uMAC_1062startup,thresh=any 
+-123.111        APPCAST_REQ_HENRY    uMAC_1062       node=henry,app=all,duration=0.1,key=uMAC_1062startup,thresh=any 
+-89.615         VIEW_POLYGON         pHelmIvP:43:loiter pts={-8,-57:-18,-67:-18,-83:-8,-93:8,-93:18,-83:18,-67:8,-57},active=false,label=gilda_loiter 
+-70.548         REFUEL_NEEDED_ALL    pMarineViewer   true 
+-70.548         LOITER_ALL           pMarineViewer   false 
+-44.345         VIEW_POINT           pHelmIvP:206:refuel x=80,y=0,active=false,label=henry's next waypoint,label_color=aqua,vertex_color=yellow,vertex_size=5 
+-44.073         VIEW_SEGLIST         pHelmIvP:207:refuel pts={80,0},active=false,label=henry_refuel 
+-32.147         DEPLOY_ALL           pMarineViewer   true 
+-32.147         MOOS_MANUAL_OVERRIDE_ALL pMarineViewer   false 
+-32.147         RETURN_ALL           pMarineViewer   false 
+-32.147         STATION_KEEP_ALL     pMarineViewer   false 
+-12.588         PHI_HOST_IP          pHostInfo       localhost 
+-12.588         PHI_HOST_IP_ALL      pHostInfo       localhost 
+-12.588         PHI_HOST_IP_VERBOSE  pHostInfo       USER_HARD_CONFIGURED=localhost 
+-12.588         PHI_HOST_PORT_DB     pHostInfo       9000 
+-12.588         PHI_HOST_INFO        pHostInfo       community=shoreside,hostip=localhost,port_db=9000,pshare_iroutes=localhost:9300,hostip_alts=,timewarp=10 
+-11.688         PSHARE_OUTPUT_SUMMARY pShare          APPCAST_REQ_ALL->APPCAST_REQ:localhost:9301 & APPCAST_REQ:localhost:9302, APPCAST_REQ_GILDA->APPCAST_REQ:localhost:9301, APPCAST_REQ_HENRY->APPCAST_REQ:localhost:9302, DEPLOY_ALL->DEPLOY:localhost:9301 & DEPLOY:localhost:9302, DEPLOY_GILDA->DEPLOY:localhost:9301, DEPLOY_HENRY->DEPLOY:localhost:9302, LOITER_ALL->LOITER:localhost:9301 & LOITER:localhost:9302, LOITER_GILDA->LOITER:localhost:9301, LOITER_HENRY->LOITER:localhost:9302, MOOS_MANUAL_OVERRIDE_ALL->MOOS_MANUAL_OVERRIDE:localhost:9301 & MOOS_MANUAL_OVERRIDE:localhost:9302, MOOS_MANUAL_OVERRIDE_GILDA->MOOS_MANUAL_OVERRIDE:localhost:9301, MOOS_MANUAL_OVERRIDE_HENRY->MOOS_MANUAL_OVERRIDE:localhost:9302, NODE_BROKER_ACK_GILDA->NODE_BROKER_ACK:localhost:9301, NODE_BROKER_ACK_HENRY->NODE_BROKER_ACK:localhost:9302, NODE_REPORT_ALL->NODE_REPORT:localhost:9301 & NODE_REPORT:localhost:9302, NODE_REPORT_GILDA->NODE_REPORT:localhost:9301, NODE_REPORT_HENRY->NODE_REPORT:localhost:9302, REFUEL_NEEDED_ALL->REFUEL_NEEDED:localhost:9301 & REFUEL_NEEDED:localhost:9302, REFUEL_NEEDED_GILDA->REFUEL_NEEDED:localhost:9301, REFUEL_NEEDED_HENRY->REFUEL_NEEDED:localhost:9302, RETURN_ALL->RETURN:localhost:9301 & RETURN:localhost:9302, RETURN_GILDA->RETURN:localhost:9301, RETURN_HENRY->RETURN:localhost:9302, STATION_KEEP_ALL->STATION_KEEP:localhost:9301 & STATION_KEEP:localhost:9302, STATION_KEEP_GILDA->STATION_KEEP:localhost:9301, STATION_KEEP_HENRY->STATION_KEEP:localhost:9302 
+-11.687         PSHARE_INPUT_SUMMARY pShare          localhost:9300 
+-11.574         PHOSTINFO_ITER_GAP   pHostInfo       1.01490      
+-11.574         PHOSTINFO_ITER_LEN   pHostInfo       0.00002      
+-11.484         UFLDSHOREBROKER_ITER_GAP uFldShoreBroker 1.04078      
+-11.484         NODE_BROKER_ACK_GILDA uFldShoreBroker community=shoreside,hostip=localhost,port_db=9000,pshare_iroutes=localhost:9300,timewarp=10,status=ok,key=0,id=109 
+-11.484         NODE_BROKER_ACK_HENRY uFldShoreBroker community=shoreside,hostip=localhost,port_db=9000,pshare_iroutes=localhost:9300,timewarp=10,status=ok,key=0,id=109 
+-11.484         NODE_BROKER_VACK     uFldShoreBroker henry 
+-11.484         UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00030      
+-11.219         NODE_BROKER_PING     uFldNodeBroker  community=henry,hostip=localhost,port_db=9002,pshare_iroutes=localhost:9302,timewarp=10,time=14956137837.47,key=0 
+-11.030         NODE_REPORT          pNodeReporter   NAME=gilda,X=-0.28,Y=2.23,SPD=0,HDG=69.39,DEP=0,LAT=43.82532003,LON=-70.33040395,TYPE=KAYAK,MODE=MODE@ACTIVE,ALLSTOP=NothingToDo,INDEX=221,YAW=0.3597785,TIME=14956137837.66,LENGTH=4 
+-2.128          APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=238!@#node=shoreside!@#iter=238!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  10!@Clear GeoShapes:  0!@NodeReports Recd: 427!@NodeReport Index: 221!@Draw Count:       472!@Draw Count Rate:  37.8798!@Curr Time:        14956137846.05!@Time Warp:        10.000!@Elapsed:          0.51529!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+-1.055          APPCAST_REQ_SHORESIDE uMAC_9553       node=shoreside,app=all,duration=0.1,key=uMAC_9553startup,thresh=any 
+-1.055          APPCAST_REQ          uMAC_9553       node=all,app=all,duration=3.0,key=uMAC_9553:app,thresh=run_warning 
+-1.055          APPCAST_REQ_ALL      uMAC_9553       node=all,app=all,duration=3.0,key=uMAC_9553:app,thresh=run_warning 
+-0.546          DB_TIME              MOOSDB_shoreside 14956137848.13997 
+-0.546          DB_UPTIME            MOOSDB_shoreside 130.86065    
+-0.546          DB_CLIENTS           MOOSDB_shoreside pMarineViewer,uMAC_9553, 
+-0.541          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.570         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.632         uMAC_9553            0.8 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.632         uMAC_9553            0.4 Hz S  node=all,app=all,durat...
+APPCAST_REQ_GILDA    04:45:52.578         uMAC_1062            0.0 Hz S  node=gilda,app=all,dur...
+APPCAST_REQ_HENRY    04:45:52.578         uMAC_1062            0.0 Hz S  node=henry,app=all,dur...
+APPCAST_REQ_SHORESIDE 04:45:52.632         uMAC_9553            0.3 Hz S  node=shoreside,app=all...
+DB_CLIENTS           04:45:52.140         MOOSDB_shoreside     0.5 Hz S  pMarineViewer,uMAC_9553,
+DB_EVENT             04:45:52.846         MOOSDB_shoreside     0.3 Hz S  connected=uMAC_9553 
+DB_QOS               04:45:52.059         MOOSDB_shoreside     0.5 Hz S  pMarineViewer=1.92261:...
+DB_RWSUMMARY         04:45:52.059         MOOSDB_shoreside     0.5 Hz S  pMarineViewer=APPCAST:...
+DB_TIME              04:45:52.139         MOOSDB_shoreside     0.5 Hz D  14956137848.1        
+DB_UPTIME            04:45:52.139         MOOSDB_shoreside     0.5 Hz D  130.9                
+DB_VARSUMMARY        04:45:52.058         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY_ALL           04:45:52.564         pMarineViewer        0.3 Hz S  true                
+DEPLOY_GILDA         07:59:59.000         (write pending)      0.0 Hz ~  
+                   DEPLOY_HENRY         07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.000         pMarineViewer        0.0 Hz D  0.0                  
+HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     04:45:52.991         pLogger              0.0 Hz S  ./LOG_SHORESIDE_24_5_2...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOITER_ALL           04:45:52.139         pMarineViewer        0.0 Hz S  false               
+LOITER_GILDA         07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOITER_HENRY         07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE_ALL 04:45:52.564         pMarineViewer        0.3 Hz S  false               
+MOOS_MANUAL_OVERRIDE_GILDA 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE_HENRY 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_ACK_GILDA 04:45:52.203         uFldShoreBroker      1.0 Hz S  community=shoreside,ho...
+NODE_BROKER_ACK_HENRY 04:45:52.203         uFldShoreBroker      1.0 Hz S  community=shoreside,ho...
+NODE_BROKER_PING     04:45:52.477         uFldNodeBroker       1.9 Hz S  community=henry,hostip...
+NODE_BROKER_VACK     04:45:52.203         uFldShoreBroker      1.9 Hz S  henry               
+NODE_REPORT          04:45:52.747         pNodeReporter        3.9 Hz S  NAME=gilda,X=-0.28,Y=2...
+NODE_REPORT_ALL      07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_GILDA    07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_HENRY    07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_INFO        04:45:52.098         pHostInfo            0.0 Hz S  community=shoreside,ho...
+PHI_HOST_IP          04:45:52.098         pHostInfo            0.0 Hz S  localhost           
+PHI_HOST_IP_ALL      04:45:52.098         pHostInfo            0.0 Hz S  localhost           
+PHI_HOST_IP_VERBOSE  04:45:52.098         pHostInfo            0.0 Hz S  USER_HARD_CONFIGURED=l...
+PHI_HOST_PORT_DB     04:45:52.098         pHostInfo            0.0 Hz S  9000                
+PHOSTINFO_ITER_GAP   04:45:52.116         pHostInfo            1.0 Hz D  1.0                  
+PHOSTINFO_ITER_LEN   04:45:52.116         pHostInfo            1.0 Hz D  0.0                  
+PHOSTINFO_STATUS     04:45:52.116         pHostInfo            0.5 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.568         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.139         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.139         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.139         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.000         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           04:45:52.510         uFldShoreBroker      0.0 Hz S  cmd=output,src_name=NO...
+PSHARE_INPUT_SUMMARY 04:45:52.041         pShare               0.9 Hz S  localhost:9300      
+PSHARE_OUTPUT_SUMMARY 04:45:52.041         pShare               0.9 Hz S  APPCAST_REQ_ALL->APPCA...
+PSHARE_STATUS        04:45:52.998         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+REFUEL_NEEDED_ALL    04:45:52.139         pMarineViewer        0.0 Hz S  true                
+REFUEL_NEEDED_GILDA  07:59:59.000         (write pending)      0.0 Hz ~  
+                   REFUEL_NEEDED_HENRY  07:59:59.000         (write pending)      0.0 Hz ~  
+                   RETURN_ALL           04:45:52.564         pMarineViewer        0.3 Hz S  false               
+RETURN_GILDA         07:59:59.000         (write pending)      0.0 Hz ~  
+                   RETURN_HENRY         07:59:59.000         (write pending)      0.0 Hz ~  
+                   STATION_KEEP_ALL     04:45:52.564         pMarineViewer        0.3 Hz S  false               
+STATION_KEEP_GILDA   07:59:59.000         (write pending)      0.0 Hz ~  
+                   STATION_KEEP_HENRY   07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   UFLDSHOREBROKER_ITER_GAP 04:45:52.203         uFldShoreBroker      1.0 Hz D  1.0                  
+UFLDSHOREBROKER_ITER_LEN 04:45:52.203         uFldShoreBroker      1.0 Hz D  0.0                  
+UFLDSHOREBROKER_STATUS 04:45:52.162         uFldShoreBroker      0.5 Hz S  AppErrorFlag=false,Upt...
+UMAC_1062_STATUS     04:45:52.981         uMAC_1062            0.5 Hz S  AppErrorFlag=false,Upt...
+UMAC_9553_STATUS     04:45:52.632         uMAC_9553            0.0 Hz S  AppErrorFlag=false,Upt...
+VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           04:45:52.502         pHelmIvP             0.0 Hz S  x=80,y=0,active=false,...
+VIEW_POLYGON         04:45:52.179         pHelmIvP             0.0 Hz S  pts={-8,-57:-18,-67:-1...
+VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         04:45:52.764         pHelmIvP             0.0 Hz S  pts={80,0},active=fals...
+VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+-0.541          DB_QOS               MOOSDB_shoreside pMarineViewer=1.92261:5.76019:0.871658:1.62735,uMAC_9553=0:1.84059:1.84059:0, 
+-0.540          DB_RWSUMMARY         MOOSDB_shoreside pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY_ALL:HELM_MAP_CLEAR:LOITER_ALL:MOOS_MANUAL_OVERRIDE_ALL:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:REFUEL_NEEDED_ALL:RETURN_ALL:STATION_KEEP_ALL,uMAC_9553=APPCAST&APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:UMAC_9553_STATUS 
+0.265           DB_EVENT             MOOSDB_shoreside connected=pLogger 
+1.013           LOGGER_DIRECTORY     pLogger         ./LOG_SHORESIDE_24_5_2017_____16_16_24 
+1.029           PMARINEVIEWER_ITER_GAP pMarineViewer   1.06416      
+1.029           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00096      

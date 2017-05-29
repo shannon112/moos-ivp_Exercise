@@ -1,0 +1,3 @@
+6.776           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+38.109          DEPLOY               pMarineViewer   true 
+316.017         DEPLOY               pHelmIvP:1019:waypt_return false 

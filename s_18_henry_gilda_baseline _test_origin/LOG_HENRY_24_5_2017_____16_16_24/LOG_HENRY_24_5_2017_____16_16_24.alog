@@ -1,0 +1,320 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./LOG_HENRY_24_5_2017_____16_16_24/LOG_HENRY_24_5_2017_____16_16_24.alog
+%% FILE OPENED ON  Thu Jan  1 08:00:00 1970
+%% LOGSTART               14956137847.8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-30.956         MOOS_DEBUG           pMarinePID      pMarinePID Control Is On 
+-129.145        USM_FSUMMARY         uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+-129.144        USM_DRIFT_SUMMARY    uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+-127.380        NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=henry,X=80,Y=0,SPD=0,HDG=180,DEP=0,LAT=43.82531158,LON=-70.32940535,TYPE=KAYAK,MODE=NOHELM-EVER,ALLSTOP=unknown,YAW=-1.5707963,TIME=14956137720.39,LENGTH=4 
+-126.826        IVPHELM_DOMAIN       pHelmIvP        speed,0,5,26:course,0,359,360 
+-126.826        IVPHELM_MODESET      pHelmIvP        MODE#---,ACTIVE#---,INACTIVE#ACTIVE,STATION-KEEPING#ACTIVE,RETURNING#ACTIVE,LOITERING#ACTIVE,REFUELING 
+-125.984        PROC_WATCH_TIME_WARP uProcessWatch   10.00000     
+-125.975        PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pShare] 
+-125.419        PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+-125.419        PROC_WATCH_FULL_SUMMARY uProcessWatch   pHelmIvP(1/0),pMarinePID(1/0),pNodeReporter(1/0),pLogger(1/0),uSimMarine(1/0),uFldNodeBroker(1/0),pHostInfo(1/0),pShare(1/0) 
+-122.734        PSHARE_CMD           uFldNodeBroker  cmd=output,src_name=VIEW_POLYGON,dest_name=VIEW_POLYGON,route=localhost:9300 
+-107.310        APPCAST              uFldNodeBroker  proc=uFldNodeBroker!@#iter=17!@#node=henry!@#iter=17!@#messages=!@  Total OK  PHI_HOST_INFO    received: 2!@  Total BAD PHI_HOST_INFO    received: 0!@  Total HOST_INFO changes    received: 1!@  Total          PSHARE_CMD    posted: 8!@  Total BAD NODE_BROKER_ACK  received: 0!@!@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@     Community: henry!@        HostIP: localhost!@   Port MOOSDB: 9002!@     Time Warp: 10!@   TryHost IPs: !@      IRoutes: localhost:9302!@!@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@Community                  Pings  Pings  IP         Time!@Name       Route           Sent   Acked  Address    Warp!@---------  --------------  -----  -----  ---------  ----!@shoreside  localhost:9300  17     16     localhost  10  !@!@Phase Completion Summary:!@------------------------------------!@ Phase 1: (Y) Valid Host information retrieved (iroutes).!@ Phase 2: (Y) Valid TryHosts (1) configured.!@ Phase 3: (Y) NODE_BROKER_PINGS are being sent to TryHosts.!@ Phase 4: (Y) A Valid NODE_BROKER_ACK has been received.!@ Phase 5: (Y) pShare requested to share user vars with shoreside.!@All Phases complete. Things should be working as configured. !@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+-100.667        IVPHELM_REGISTER     pHelmIvP        REFUEL_NEEDED 
+-100.667        IVPHELM_BHV_CNT      pHelmIvP        4.00000      
+-100.667        IVPHELM_BHV_CNT_EVER pHelmIvP        4.00000      
+-100.666        LOITER_REPORT_A      pHelmIvP:1:loiter index=2,capture_hits=0,nonmono_hits=0,acquire_mode=true 
+-100.666        LOITER_INDEX_A       pHelmIvP:1:loiter 2.00000      
+-100.666        LOITER_ACQUIRE_A     pHelmIvP:1:loiter 1.00000      
+-100.666        BHV_SETTINGS         pHelmIvP:1:station-keep type=BHV_StationKeep,name=station-keep,x=0.00,y=0.00,inner_radius=5.0,outer_radius=10.0,hibernation_radius=-1.0,outer_speed=1.0,center_activate=true 
+-100.666        IVPHELM_STATEVARS    pHelmIvP        MODE,REFUEL_NEEDED,STATION_KEEP 
+-100.666        IVPHELM_COMPLETED_PENDING pHelmIvP:1      false 
+-100.665        IVPHELM_LIFE_EVENT   pHelmIvP        time=26.21, iter=1, bname=refuel, btype=BHV_Waypoint, event=spawn, seed=helm_startup 
+-89.745         LOITER_DIST_TO_POLY_A pHelmIvP:40:loiter 38.00000     
+-89.183         LOITER_DIST_TO_VERT  pHelmIvP:42:loiter 51.49206     
+-89.183         LOITER_ETA_TO_POLY_A pHelmIvP:42:loiter 32.00000     
+-88.874         VIEW_POLYGON         pHelmIvP:43:loiter pts={117,-32:107,-42:107,-58:117,-68:133,-68:143,-58:143,-42:133,-32},active=false,label=henry_loiter 
+-88.873         LOITER_MODE_A        pHelmIvP:43:loiter idle 
+-88.872         WPT_INDEX            pHelmIvP:43:refuel 0.00000      
+-69.632         LOITER               pMarineViewer   false 
+-43.675         BHV_IPF              pHelmIvP:refuel P,refuel^205,1,1,H,10,205:refuel,2,35,1,100,D,course;0;359;360:speed;0;5;26,G,359,25,F,0,58,0,3,-0.3,5.1587,42.1093,0,58,4,6,-0.3,3.1746,48.5577,0,58,7,9,-0.3,-3.1746,89.8275,0,58,10,17,-0.3,-5.1587,109.1727,0,58,18,25,-0.3,0,17.6053,59,108,0,3,0.2218,5.1587,11.4204,59,108,4,6,0.2218,3.1746,17.8688,59,108,7,9,0.2218,-3.1746,59.1386,59,108,10,17,0.2218,-5.1587,78.4838,59,108,18,25,0.2218,0,-13.0836,109,238,0,3,0.3,5.1587,2.8945,109,238,4,6,0.3,3.1746,9.3429,109,238,7,9,0.3,-3.1746,50.6128,109,238,10,17,0.3,-5.1587,69.958,109,238,18,25,0.3,0,-21.6094,239,258,0,3,-0.2218,5.1587,127.5037,239,258,4,6,-0.2218,3.1746,133.9521,239,258,7,9,-0.2218,-3.1746,175.222,239,258,10,17,-0.2218,-5.1587,194.5672,239,258,18,25,-0.2218,0,102.9997,259,288,0,3,-0.1826,5.1587,117.3708,259,288,4,6,-0.1826,3.1746,123.8192,259,288,7,9,-0.1826,-3.1746,165.089,259,288,10,17,-0.1826,-5.1587,184.4343,259,288,18,25,-0.1826,0,92.8668,289,318,0,3,-0.3392,5.1587,162.5985,289,318,4,6,-0.3392,3.1746,169.0469,289,318,7,9,-0.3392,-3.1746,210.3168,289,318,10,17,-0.3392,-5.1587,229.662,289,318,18,25,-0.3392,0,138.0946,319,359,0,3,-0.3,5.1587,150.1176,319,359,4,6,-0.3,3.1746,156.566,319,359,7,9,-0.3,-3.1746,197.8358,319,359,10,17,-0.3,-5.1587,217.1811,319,359,18,25,-0.3,0,125.6136 
+-43.430         WPT_ODO              pHelmIvP:206:refuel 25.46353     
+-43.430         WPT_STAT             pHelmIvP:206:refuel behavior-name=refuel,completed 
+-43.429         REFUEL_NEEDED        pHelmIvP:206:refuel false 
+-43.429         CYCLE_INDEX          pHelmIvP:206:refuel 2.00000      
+-43.429         VIEW_POINT           pHelmIvP:206:refuel x=80,y=0,active=false,label=henry's next waypoint,label_color=aqua,vertex_color=yellow,vertex_size=5 
+-43.428         IVPHELM_BHV_ACTIVE   pHelmIvP         
+-43.158         MODE                 pHelmIvP:HELM_MODE ACTIVE 
+-43.157         VIEW_SEGLIST         pHelmIvP:207:refuel pts={80,0},active=false,label=henry_refuel 
+-43.156         IVPHELM_BHV_RUNNING  pHelmIvP         
+-43.156         IVPHELM_BHV_IDLE     pHelmIvP        loiter,waypt_return,station-keep,refuel 
+-43.155         IVPHELM_ALLSTOP      pHelmIvP        NothingToDo 
+-43.155         DESIRED_SPEED        pHelmIvP        0.00000      
+-43.155         DESIRED_HEADING      pHelmIvP        0.00000      
+-41.072         DESIRED_RUDDER       pMarinePID      0.00000      
+-31.231         DEPLOY               pMarineViewer   true 
+-31.231         MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+-31.231         RETURN               pMarineViewer   false 
+-31.231         STATION_KEEP         pMarineViewer   false 
+-12.146         APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-11.948         PHI_HOST_IP          pHostInfo       localhost 
+-11.948         PHI_HOST_IP_ALL      pHostInfo       localhost 
+-11.948         PHI_HOST_IP_VERBOSE  pHostInfo       USER_HARD_CONFIGURED=localhost 
+-11.948         PHI_HOST_PORT_DB     pHostInfo       9002 
+-11.948         PHI_HOST_INFO        pHostInfo       community=henry,hostip=localhost,port_db=9002,pshare_iroutes=localhost:9302,hostip_alts=,timewarp=10 
+-10.568         NODE_BROKER_ACK      uFldShoreBroker community=shoreside,hostip=localhost,port_db=9000,pshare_iroutes=localhost:9300,timewarp=10,status=ok,key=0,id=109 
+-10.445         PSHARE_OUTPUT_SUMMARY pShare          APPCAST->APPCAST:localhost:9300, NODE_BROKER_PING_0->NODE_BROKER_PING:localhost:9300, NODE_MESSAGE_LOCAL->NODE_MESSAGE:localhost:9300, NODE_REPORT_LOCAL->NODE_REPORT:localhost:9300, VIEW_POINT->VIEW_POINT:localhost:9300, VIEW_POLYGON->VIEW_POLYGON:localhost:9300, VIEW_SEGLIST->VIEW_SEGLIST:localhost:9300 
+-10.444         PSHARE_INPUT_SUMMARY pShare          localhost:9302 
+-10.303         UFLDNODEBROKER_ITER_GAP uFldNodeBroker  1.04289      
+-10.303         NODE_BROKER_PING_0   uFldNodeBroker  community=henry,hostip=localhost,port_db=9002,pshare_iroutes=localhost:9302,timewarp=10,time=14956137837.47,key=0 
+-10.303         UFLDNODEBROKER_ITER_LEN uFldNodeBroker  0.00009      
+-10.206         PNODEREPORTER_ITER_GAP pNodeReporter   1.08522      
+-10.205         NODE_REPORT_LOCAL    pNodeReporter   NAME=henry,X=80.06,Y=2.32,SPD=0,HDG=284.05,DEP=0,LAT=43.82533245,LON=-70.32940509,TYPE=KAYAK,MODE=MODE@ACTIVE,ALLSTOP=NothingToDo,INDEX=220,YAW=2.8962901,TIME=14956137837.56,LENGTH=4 
+-10.205         PNODEREPORTER_ITER_LEN pNodeReporter   0.00052      
+-10.113         UPROCESSWATCH_ITER_GAP uProcessWatch   1.01086      
+-10.112         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00018      
+-9.978          PHELMIVP_ITER_GAP    pHelmIvP        1.09396      
+-9.978          IVPHELM_CPU          pHelmIvP        3.77112      
+-9.978          IVPHELM_STATE        pHelmIvP        DRIVE 
+-9.973          IVPHELM_ITER         pHelmIvP        325.00000    
+-9.972          IVPHELM_SUMMARY      pHelmIvP        iter=325,utc_time=14956137837.79 
+-9.972          IVPHELM_IPF_CNT      pHelmIvP        0.00000      
+-9.972          IVPHELM_ALLSTOP_DEBUG pHelmIvP        NothingToDo 
+-9.972          IVPHELM_CREATE_CPU   pHelmIvP        0.00000      
+-9.972          IVPHELM_LOOP_CPU     pHelmIvP        0.00000      
+-9.972          PHELMIVP_ITER_LEN    pHelmIvP        0.02287      
+-9.857          PHOSTINFO_ITER_GAP   pHostInfo       1.04318      
+-9.857          PHOSTINFO_ITER_LEN   pHostInfo       0.00015      
+-9.804          DESIRED_THRUST       pMarinePID      0.00000      
+0.247           DB_TIME              MOOSDB_henry    14956137848.01673 
+0.247           DB_UPTIME            MOOSDB_henry    130.73201    
+0.247           DB_CLIENTS           MOOSDB_henry    pLogger,uSimMarine, 
+0.256           DB_VARSUMMARY        MOOSDB_henry    AIS_REPORT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   AIS_REPORT_LOCAL     07:59:59.000         (write pending)      0.0 Hz ~  
+                   APPCAST              04:45:52.465         uFldNodeBroker       1.7 Hz S  proc=uFldNodeBroker!@#...
+APPCAST_REQ          04:45:52.751         pMarineViewer        0.3 Hz S  node=all,app=all,durat...
+AUX_MODE             07:59:59.000         (write pending)      0.0 Hz ~  
+                   BHV_IPF              04:45:52.129         pHelmIvP             3.7 Hz S  P,refuel^205,1,1,H,10,...
+BHV_SETTINGS         04:45:52.162         pHelmIvP             0.0 Hz S  type=BHV_StationKeep,n...
+BHV_STATUS           04:45:52.654         pHelmIvP             0.0 Hz S  name=refuel,pc=MODE==R...
+BUOYANCY_CONTROL     07:59:59.000         (write pending)      0.0 Hz ~  
+                   BUOYANCY_RATE        07:59:59.000         (write pending)      0.0 Hz ~  
+                   CURRENT_X            07:59:59.000         (write pending)      0.0 Hz ~  
+                   CURRENT_Y            07:59:59.000         (write pending)      0.0 Hz ~  
+                   CYCLE_INDEX          04:45:52.387         pHelmIvP             0.0 Hz D  2.0                  
+DB_CLIENTS           04:45:52.016         MOOSDB_henry         0.5 Hz S  pLogger,uSimMarine, 
+DB_EVENT             04:45:52.896         MOOSDB_henry         0.4 Hz S  connected=pLogger   
+DB_QOS               04:45:52.940         MOOSDB_henry         0.5 Hz S  uSimMarine=1.03951:6.0...
+DB_RWSUMMARY         04:45:52.940         MOOSDB_henry         0.5 Hz S  uSimMarine=APPCAST_REQ...
+DB_TIME              04:45:52.016         MOOSDB_henry         0.5 Hz D  14956137848.0        
+DB_UPTIME            04:45:52.016         MOOSDB_henry         0.5 Hz D  130.7                
+DB_VARSUMMARY        04:45:52.940         MOOSDB_henry         0.5 Hz S  AIS_REPORT           0...
+DEPLOY               04:45:52.759         pMarineViewer        0.3 Hz S  true                
+DESIRED_DEPTH        07:59:59.000         (write pending)      0.0 Hz ~  
+                   DESIRED_ELEVATOR     07:59:59.000         (write pending)      0.0 Hz ~  
+                   DESIRED_HEADING      04:45:52.654         pHelmIvP             2.8 Hz D  0.0                  
+DESIRED_RUDDER       04:45:52.700         pMarinePID           9.3 Hz D  0.0                  
+DESIRED_SPEED        04:45:52.654         pHelmIvP             2.8 Hz D  0.0                  
+DESIRED_THRUST       04:45:52.966         pMarinePID           8.8 Hz D  0.0                  
+DESIRED_THRUST_L     07:59:59.000         (write pending)      0.0 Hz ~  
+                   DESIRED_THRUST_R     07:59:59.000         (write pending)      0.0 Hz ~  
+                   DRIFT_VECTOR         07:59:59.000         (write pending)      0.0 Hz ~  
+                   DRIFT_VECTOR_ADD     07:59:59.000         (write pending)      0.0 Hz ~  
+                   DRIFT_VECTOR_MULT    07:59:59.000         (write pending)      0.0 Hz ~  
+                   DRIFT_X              07:59:59.000         (write pending)      0.0 Hz ~  
+                   DRIFT_Y              07:59:59.000         (write pending)      0.0 Hz ~  
+                   EXITED_NORMALLY      07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       07:59:59.000         (write pending)      0.0 Hz ~  
+                   HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   IVPHELM_ALLSTOP      04:45:52.654         pHelmIvP             0.0 Hz S  NothingToDo         
+IVPHELM_ALLSTOP_DEBUG 04:45:52.847         pHelmIvP             3.5 Hz S  NothingToDo         
+IVPHELM_BHV_ACTIVE   04:45:52.387         pHelmIvP             0.0 Hz S                      
+IVPHELM_BHV_CNT      04:45:52.103         pHelmIvP             0.0 Hz D  4.0                  
+IVPHELM_BHV_CNT_EVER 04:45:52.103         pHelmIvP             0.0 Hz D  4.0                  
+IVPHELM_BHV_IDLE     04:45:52.654         pHelmIvP             0.0 Hz S  loiter,waypt_return,st...
+IVPHELM_BHV_RUNNING  04:45:52.654         pHelmIvP             0.0 Hz S                      
+IVPHELM_COMPLETED_PENDING 04:45:52.162         pHelmIvP             0.0 Hz S  false               
+IVPHELM_CPU          04:45:52.793         pHelmIvP             3.6 Hz D  3.8                  
+IVPHELM_CREATE_CPU   04:45:52.847         pHelmIvP             3.5 Hz D  0.0                  
+IVPHELM_DOMAIN       04:45:52.953         pHelmIvP             0.0 Hz S  speed,0,5,26:course,0,...
+IVPHELM_IPF_CNT      04:45:52.847         pHelmIvP             3.5 Hz D  0.0                  
+IVPHELM_ITER         04:45:52.847         pHelmIvP             3.5 Hz D  325.0                
+IVPHELM_LIFE_EVENT   04:45:52.162         pHelmIvP             0.0 Hz S  time=26.21, iter=1, bn...
+IVPHELM_LOOP_CPU     04:45:52.847         pHelmIvP             3.5 Hz D  0.0                  
+IVPHELM_MODESET      04:45:52.953         pHelmIvP             0.0 Hz S  MODE#---,ACTIVE#---,IN...
+IVPHELM_REGISTER     04:45:52.103         pHelmIvP             0.0 Hz S  REFUEL_NEEDED       
+IVPHELM_REJOURNAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   IVPHELM_STATE        04:45:52.793         pHelmIvP             3.6 Hz S  DRIVE               
+IVPHELM_STATEVARS    04:45:52.162         pHelmIvP             0.0 Hz S  MODE,REFUEL_NEEDED,STA...
+IVPHELM_SUMMARY      04:45:52.847         pHelmIvP             3.5 Hz S  iter=325,utc_time=1495...
+LOAD_WARNING         07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     04:45:52.985         pLogger              0.0 Hz S  ./LOG_HENRY_24_5_2017_...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOITER               04:45:52.330         pMarineViewer        0.0 Hz S  false               
+LOITER_ACQUIRE_A     04:45:52.161         pHelmIvP             0.0 Hz D  1.0                  
+LOITER_DIST_TO_POLY_A 04:45:52.060         pHelmIvP             1.1 Hz D  38.0                 
+LOITER_DIST_TO_VERT  04:45:52.641         pHelmIvP             3.5 Hz D  51.5                 
+LOITER_ETA_TO_POLY_A 04:45:52.641         pHelmIvP             1.1 Hz D  32.0                 
+LOITER_INDEX_A       04:45:52.161         pHelmIvP             0.0 Hz D  2.0                  
+LOITER_MODE_A        04:45:52.935         pHelmIvP             0.0 Hz S  idle                
+LOITER_REPORT_A      04:45:52.161         pHelmIvP             0.0 Hz S  index=2,capture_hits=0...
+MODE                 04:45:52.654         pHelmIvP             0.0 Hz S  ACTIVE              
+MOOS_DEBUG           04:45:52.825         pMarinePID           0.4 Hz S  pMarinePID Control Is On
+MOOS_MANUAL_OVERIDE  07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.759         pMarineViewer        0.3 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_DEPTH            04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+NAV_HEADING          04:45:52.016         uSimMarine           9.5 Hz D  284.1                
+NAV_HEADING_OVER_GROUND 04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+NAV_LAT              04:45:52.016         uSimMarine           9.4 Hz D  43.8                 
+NAV_LONG             04:45:52.016         uSimMarine           9.5 Hz D  -70.3                
+NAV_PITCH            04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+NAV_SPEED            04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+NAV_SPEED_OVER_GROUND 04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+NAV_TRAJECTORY       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_X                04:45:52.016         uSimMarine           9.2 Hz D  80.1                 
+NAV_Y                04:45:52.016         uSimMarine           9.3 Hz D  2.3                  
+NAV_YAW              04:45:52.016         uSimMarine           9.5 Hz D  1.3                  
+NAV_Z                04:45:52.016         uSimMarine           9.5 Hz D  -0.0                 
+NODE_BROKER_ACK      04:45:52.325         uFldShoreBroker      1.0 Hz S  community=shoreside,ho...
+NODE_BROKER_PING_0   04:45:52.468         uFldNodeBroker       1.0 Hz S  community=henry,hostip...
+NODE_MESSAGE_LOCAL   07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    04:45:52.565         pNodeReporter        1.9 Hz S  NAME=henry,X=80.06,Y=2...
+NODE_REPORT_LOCAL_FIRST 04:45:52.397         pNodeReporter        0.0 Hz S  NAME=henry,X=80,Y=0,SP...
+OBSTACLE_HIT         07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHELMIVP_ITER_GAP    04:45:52.793         pHelmIvP             3.6 Hz D  1.1                  
+PHELMIVP_ITER_LEN    04:45:52.847         pHelmIvP             3.5 Hz D  0.0                  
+PHELMIVP_STATUS      04:45:52.411         pHelmIvP             0.5 Hz S  AppErrorFlag=false,Upt...
+PHI_HOST_INFO        04:45:52.864         pHostInfo            0.0 Hz S  community=henry,hostip...
+PHI_HOST_IP          04:45:52.822         pHostInfo            0.0 Hz S  localhost           
+PHI_HOST_IP_ALL      04:45:52.822         pHostInfo            0.0 Hz S  localhost           
+PHI_HOST_IP_VERBOSE  04:45:52.822         pHostInfo            0.0 Hz S  USER_HARD_CONFIGURED=l...
+PHI_HOST_PORT_DB     04:45:52.822         pHostInfo            0.0 Hz S  9002                
+PHOSTINFO_ITER_GAP   04:45:52.915         pHostInfo            1.0 Hz D  1.0                  
+PHOSTINFO_ITER_LEN   04:45:52.915         pHostInfo            1.0 Hz D  0.0                  
+PHOSTINFO_STATUS     04:45:52.871         pHostInfo            0.5 Hz S  AppErrorFlag=false,Upt...
+PID_VERBOSE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          04:45:52.953         pHelmIvP             0.0 Hz S  COPY_FILE_REQUEST = ta...
+PLOGGER_STATUS       04:45:52.706         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEPID_STATUS    04:45:52.848         pMarinePID           0.5 Hz S  AppErrorFlag=false,Upt...
+PNODEREPORTER_ITER_GAP 04:45:52.565         pNodeReporter        1.9 Hz D  1.1                  
+PNODEREPORTER_ITER_LEN 04:45:52.565         pNodeReporter        1.9 Hz D  0.0                  
+PNODEREPORTER_STATUS 04:45:52.565         pNodeReporter        0.5 Hz S  AppErrorFlag=false,Upt...
+PNR_PAUSE            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PROC_WATCH_EVENT     04:45:52.830         uProcessWatch        0.0 Hz S  Noted to be present: [...
+PROC_WATCH_FULL_SUMMARY 04:45:52.399         uProcessWatch        0.0 Hz S  pHelmIvP(1/0),pMarineP...
+PROC_WATCH_SUMMARY   04:45:52.351         uProcessWatch        0.0 Hz S  All Present         
+PROC_WATCH_TIME_WARP 04:45:52.787         uProcessWatch        0.0 Hz D  10.0                 
+PSHARE_CMD           04:45:52.041         uFldNodeBroker       0.9 Hz S  cmd=output,src_name=VI...
+PSHARE_INPUT_SUMMARY 04:45:52.370         pShare               0.9 Hz S  localhost:9302      
+PSHARE_OUTPUT_SUMMARY 04:45:52.370         pShare               0.9 Hz S  APPCAST->APPCAST:local...
+PSHARE_STATUS        04:45:52.471         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+REFUEL_NEEDED        04:45:52.387         pHelmIvP             0.0 Hz S  false               
+RESTART_HELM         07:59:59.000         (write pending)      0.0 Hz ~  
+                   RETURN               04:45:52.759         pMarineViewer        0.3 Hz S  false               
+ROTATE_SPEED         07:59:59.000         (write pending)      0.0 Hz ~  
+                   SIMULATION_MODE      04:45:52.016         uSimMarine           9.5 Hz S  TRUE                
+SPEED_FACTOR         07:59:59.000         (write pending)      0.0 Hz ~  
+                   STATION_KEEP         04:45:52.759         pMarineViewer        0.3 Hz S  false               
+THRUST_MODE_DIFFERENTIAL 07:59:59.000         (write pending)      0.0 Hz ~  
+                   THRUST_MODE_REVERSE  07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRIM_CONTROL         07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRUE_X               04:45:52.016         uSimMarine           9.5 Hz D  80.1                 
+TRUE_Y               04:45:52.016         uSimMarine           9.5 Hz D  2.3                  
+UFLDNODEBROKER_ITER_GAP 04:45:52.468         uFldNodeBroker       1.0 Hz D  1.0                  
+UFLDNODEBROKER_ITER_LEN 04:45:52.468         uFldNodeBroker       1.0 Hz D  0.0                  
+UFLDNODEBROKER_STATUS 04:45:52.467         uFldNodeBroker       0.5 Hz S  AppErrorFlag=false,Upt...
+UPROCESSWATCH_ITER_GAP 04:45:52.659         uProcessWatch        1.9 Hz D  1.0                  
+UPROCESSWATCH_ITER_LEN 04:45:52.659         uProcessWatch        1.9 Hz D  0.0                  
+UPROCESSWATCH_STATUS 04:45:52.153         uProcessWatch        0.5 Hz S  AppErrorFlag=false,Upt...
+USIMMARINE_ITER_GAP  04:45:52.016         uSimMarine           9.0 Hz D  1.4                  
+USIMMARINE_ITER_LEN  04:45:52.016         uSimMarine           9.5 Hz D  0.0                  
+USIMMARINE_STATUS    04:45:52.155         uSimMarine           0.5 Hz S  AppErrorFlag=false,Upt...
+USM_BUOYANCY_RATE    07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_DRIFT_SUMMARY    04:45:52.693         uSimMarine           0.0 Hz S  ang=0, mag=0, xmag=0, ...
+USM_FORCE_THETA      07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FORCE_VECTOR     07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FORCE_VECTOR_ADD 07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FORCE_VECTOR_MULT 07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FORCE_X          07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FORCE_Y          07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_FSUMMARY         04:45:52.692         uSimMarine           0.0 Hz S  ang=0, mag=0, xmag=0, ...
+USM_RESET            07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_SIM_PAUSED       07:59:59.000         (write pending)      0.0 Hz ~  
+                   USM_WATER_DEPTH      07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           04:45:52.387         pHelmIvP             0.0 Hz S  x=80,y=0,active=false,...
+VIEW_POLYGON         04:45:52.935         pHelmIvP             0.0 Hz S  pts={117,-32:107,-42:1...
+VIEW_SEGLIST         04:45:52.654         pHelmIvP             0.0 Hz S  pts={80,0},active=fals...
+WATER_DEPTH          07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_INDEX            04:45:52.936         pHelmIvP             0.0 Hz D  0.0                  
+WPT_ODO              04:45:52.387         pHelmIvP             3.7 Hz D  25.5                 
+WPT_STAT             04:45:52.387         pHelmIvP             1.2 Hz S  behavior-name=refuel,c...
+ 
+0.256           DB_QOS               MOOSDB_henry    pLogger=0:3.49045:3.49045:0,uSimMarine=1.03951:6.07109:1.03951:1.58844, 
+0.258           DB_RWSUMMARY         MOOSDB_henry    pLogger=LOGGER_RESTART&LOGGER_DIRECTORY:PLOGGER_STATUS,uSimMarine=APPCAST_REQ:BUOYANCY_CONTROL:BUOYANCY_RATE:CURRENT_X:CURRENT_Y:DESIRED_ELEVATOR:DESIRED_RUDDER:DESIRED_THRUST:DESIRED_THRUST_L:DESIRED_THRUST_R:DRIFT_VECTOR:DRIFT_VECTOR_ADD:DRIFT_VECTOR_MULT:DRIFT_X:DRIFT_Y:OBSTACLE_HIT:ROTATE_SPEED:THRUST_MODE_DIFFERENTIAL:THRUST_MODE_REVERSE:TRIM_CONTROL:USM_BUOYANCY_RATE:USM_FORCE_THETA:USM_FORCE_VECTOR:USM_FORCE_VECTOR_ADD:USM_FORCE_VECTOR_MULT:USM_FORCE_X:USM_FORCE_Y:USM_RESET:USM_SIM_PAUSED:USM_WATER_DEPTH:WATER_DEPTH&APPCAST:NAV_DEPTH:NAV_HEADING:NAV_HEADING_OVER_GROUND:NAV_LAT:NAV_LONG:NAV_PITCH:NAV_SPEED:NAV_SPEED_OVER_GROUND:NAV_X:NAV_Y:NAV_YAW:NAV_Z:SIMULATION_MODE:TRUE_X:TRUE_Y:USIMMARINE_ITER_GAP:USIMMARINE_ITER_LEN:USIMMARINE_STATUS:USM_DRIFT_SUMMARY:USM_FSUMMARY 
+0.671           DB_EVENT             MOOSDB_henry    connected=pNodeReporter 
+0.851           LOGGER_DIRECTORY     pLogger         ./LOG_HENRY_24_5_2017_____16_16_24 
+0.939           NAV_DEPTH            uSimMarine      0.00000      
+0.939           NAV_HEADING          uSimMarine      284.05480    
+0.939           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+0.939           NAV_LAT              uSimMarine      43.82533     
+0.939           NAV_LONG             uSimMarine      -70.32941    
+0.939           NAV_PITCH            uSimMarine      0.00000      
+0.939           NAV_SPEED            uSimMarine      0.00000      
+0.939           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+0.939           NAV_X                uSimMarine      80.05852     
+0.939           NAV_Y                uSimMarine      2.31856      
+0.939           NAV_YAW              uSimMarine      1.32549      
+0.939           NAV_Z                uSimMarine      -0.00000     
+0.939           SIMULATION_MODE      uSimMarine      TRUE 
+0.939           TRUE_X               uSimMarine      80.05852     
+0.939           TRUE_Y               uSimMarine      2.31856      
+0.939           USIMMARINE_ITER_GAP  uSimMarine      1.45672      
+0.940           USIMMARINE_ITER_LEN  uSimMarine      0.01019      
+1.041           NAV_X                uSimMarine      80.05852     
+1.041           NAV_Y                uSimMarine      2.31856      
+1.041           NAV_LAT              uSimMarine      43.82533     
+1.041           NAV_LONG             uSimMarine      -70.32941    
+1.041           NAV_HEADING          uSimMarine      284.05480    
+1.041           NAV_SPEED            uSimMarine      0.00000      
+1.041           NAV_DEPTH            uSimMarine      0.00000      
+1.041           SIMULATION_MODE      uSimMarine      TRUE 
+1.041           NAV_Z                uSimMarine      -0.00000     
+1.041           NAV_PITCH            uSimMarine      0.00000      
+1.041           NAV_YAW              uSimMarine      1.32549      
+1.041           TRUE_X               uSimMarine      80.05852     
+1.041           TRUE_Y               uSimMarine      2.31856      
+1.041           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+1.041           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+1.041           USIMMARINE_ITER_GAP  uSimMarine      1.02798      
+1.042           USIMMARINE_ITER_LEN  uSimMarine      0.00431      
+1.144           NAV_X                uSimMarine      80.05852     
+1.144           NAV_Y                uSimMarine      2.31856      
+1.144           NAV_LAT              uSimMarine      43.82533     
+1.144           NAV_LONG             uSimMarine      -70.32941    
+1.144           NAV_HEADING          uSimMarine      284.05480    
+1.144           NAV_SPEED            uSimMarine      0.00000      
+1.144           NAV_DEPTH            uSimMarine      0.00000      
+1.144           SIMULATION_MODE      uSimMarine      TRUE 
+1.144           NAV_Z                uSimMarine      -0.00000     
+1.144           NAV_PITCH            uSimMarine      0.00000      
+1.144           NAV_YAW              uSimMarine      1.32549      
+1.144           TRUE_X               uSimMarine      80.05852     
+1.144           TRUE_Y               uSimMarine      2.31856      
+1.144           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+1.144           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+1.144           USIMMARINE_ITER_GAP  uSimMarine      1.02512      
+1.145           USIMMARINE_ITER_LEN  uSimMarine      0.00618      
+1.247           NAV_X                uSimMarine      80.05852     
+1.247           NAV_Y                uSimMarine      2.31856      
+1.247           NAV_LAT              uSimMarine      43.82533     
+1.247           NAV_LONG             uSimMarine      -70.32941    
+1.247           NAV_HEADING          uSimMarine      284.05480    
+1.247           NAV_SPEED            uSimMarine      0.00000      
+1.247           NAV_DEPTH            uSimMarine      0.00000      
+1.247           SIMULATION_MODE      uSimMarine      TRUE 
+1.247           NAV_Z                uSimMarine      -0.00000     
+1.247           NAV_PITCH            uSimMarine      0.00000      
+1.247           NAV_YAW              uSimMarine      1.32549      
+1.247           TRUE_X               uSimMarine      80.05852     
+1.247           TRUE_Y               uSimMarine      2.31856      
+1.247           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+1.247           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+1.247           USIMMARINE_ITER_GAP  uSimMarine      1.02619      
+1.247           USIMMARINE_ITER_LEN  uSimMarine      0.00698      

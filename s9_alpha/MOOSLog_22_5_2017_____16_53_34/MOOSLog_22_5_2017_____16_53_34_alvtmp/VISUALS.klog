@@ -1,0 +1,18 @@
+38.195          VIEW_POLYGON         pHelmIvP:1:loiter pts={64,-47:47,-64:47,-86:64,-103:86,-103:103,-86:103,-64:86,-47},label=LOITER_POLYGON,edge_color=white,vertex_color=dodger_blue,vertex_size=3,edge_size=1 
+38.195          VIEW_POINT           pHelmIvP:1:loiter x=47,y=-86,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+98.277          VIEW_POINT           pHelmIvP:222:loiter x=64,y=-103,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+117.128         VIEW_POINT           pHelmIvP:292:loiter x=86,y=-103,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+134.879         VIEW_POINT           pHelmIvP:358:loiter x=103,y=-86,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+154.531         VIEW_POINT           pHelmIvP:430:loiter x=103,y=-64,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+172.569         VIEW_POINT           pHelmIvP:496:loiter x=86,y=-47,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+192.212         VIEW_POINT           pHelmIvP:568:loiter x=64,y=-47,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+210.128         VIEW_POINT           pHelmIvP:633:loiter x=47,y=-64,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+229.602         VIEW_POINT           pHelmIvP:705:loiter x=47,y=-86,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+247.647         VIEW_POINT           pHelmIvP:770:loiter x=64,y=-103,label=alpha_waypoint,label_color=khaki,vertex_color=yellow,vertex_size=5 
+263.132         VIEW_POINT           pHelmIvP:826:loiter x=64,y=-103,active=false,label=alpha_waypoint 
+263.132         VIEW_POLYGON         pHelmIvP:826:loiter pts={64,-47:47,-64:47,-86:64,-103:86,-103:103,-86:103,-64:86,-47},active=false,label=alpha_loiter 
+263.132         VIEW_SEGLIST         pHelmIvP:826:waypt_return pts={0,-20},label=alpha_waypt_return,label_color=white,edge_color=white,vertex_color=dodger_blue,vertex_size=3,edge_size=1 
+263.132         VIEW_POINT           pHelmIvP:826:waypt_return x=0,y=-20,active=true,label=alpha's next waypoint,label_color=aqua,vertex_color=yellow,vertex_size=5 
+263.132         VIEW_POINT           pHelmIvP:826:waypt_return x=0,y=-20,active=false,label=alpha's track-point,label_color=yellow,vertex_color=yellow,vertex_size=4 
+316.018         VIEW_POINT           pHelmIvP:1019:waypt_return x=0,y=-20,active=false,label=alpha's next waypoint,label_color=aqua,vertex_color=yellow,vertex_size=5 
+316.293         VIEW_SEGLIST         pHelmIvP:1020:waypt_return pts={0,-20},active=false,label=alpha_waypt_return 

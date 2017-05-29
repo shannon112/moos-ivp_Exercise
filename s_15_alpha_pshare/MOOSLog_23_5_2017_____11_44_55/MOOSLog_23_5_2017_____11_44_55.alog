@@ -1,0 +1,1430 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_23_5_2017_____11_44_55/MOOSLog_23_5_2017_____11_44_55.alog
+%% FILE OPENED ON  Thu Jan  1 08:00:00 1970
+%% LOGSTART               14955110952.3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.139           DB_EVENT             MOOSDB_shoreside connected=pLogger 
+0.151           DB_TIME              MOOSDB_shoreside 14955110952.49066 
+0.151           DB_UPTIME            MOOSDB_shoreside 2.22810      
+0.151           DB_CLIENTS           MOOSDB_shoreside pLogger, 
+0.157           DB_VARSUMMARY        MOOSDB_shoreside DB_CLIENTS           04:45:52.490         MOOSDB_shoreside     0.0 Hz S  pLogger,            
+DB_EVENT             04:45:52.478         MOOSDB_shoreside     0.0 Hz S  connected=pLogger   
+DB_QOS               11:44:55.025         MOOSDB#1             0.0 Hz S                      
+DB_RWSUMMARY         11:44:55.025         MOOSDB#1             0.0 Hz S                      
+DB_TIME              04:45:52.490         MOOSDB_shoreside     0.0 Hz D  14955110952.5        
+DB_UPTIME            04:45:52.490         MOOSDB_shoreside     0.0 Hz D  2.2                  
+DB_VARSUMMARY        11:44:55.025         MOOSDB#1             0.0 Hz S                      
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+0.157           DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:5.17273:0, 
+0.158           DB_RWSUMMARY         MOOSDB_shoreside pLogger=LOGGER_RESTART& 
+0.979           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.978849,cpuload=0,memory_kb=752,memory_max_kb=756,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=false 
+0.979           LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____11_44_55 
+3.010           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=3.00944,cpuload=0,memory_kb=752,memory_max_kb=756,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+3.011           DB_TIME              MOOSDB_shoreside 14955110955.35130 
+3.011           DB_UPTIME            MOOSDB_shoreside 5.08873      
+3.011           DB_CLIENTS           MOOSDB_shoreside pLogger, 
+3.012           DB_VARSUMMARY        MOOSDB_shoreside DB_CLIENTS           04:45:52.351         MOOSDB_shoreside     0.2 Hz S  pLogger,            
+DB_EVENT             04:45:52.478         MOOSDB_shoreside     0.0 Hz S  connected=pLogger   
+DB_QOS               04:45:52.497         MOOSDB_shoreside     0.0 Hz S  pLogger=0:5.17273:5.17...
+DB_RWSUMMARY         04:45:52.497         MOOSDB_shoreside     0.0 Hz S  pLogger=LOGGER_RESTART&
+DB_TIME              04:45:52.351         MOOSDB_shoreside     0.2 Hz D  14955110955.4        
+DB_UPTIME            04:45:52.351         MOOSDB_shoreside     0.2 Hz D  5.1                  
+DB_VARSUMMARY        04:45:52.497         MOOSDB_shoreside     0.0 Hz S  DB_CLIENTS           0...
+LOGGER_DIRECTORY     04:45:52.320         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.351         pLogger              0.2 Hz S  AppErrorFlag=false,Upt...
+ 
+3.012           DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:5.17273:0, 
+3.012           DB_RWSUMMARY         MOOSDB_shoreside pLogger=DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+3.112           DB_EVENT             MOOSDB_shoreside connected=pMarineViewer 
+4.909           DB_EVENT             MOOSDB_shoreside connected=pShare 
+5.160           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=5.15891,cpuload=2.801,memory_kb=1444,memory_max_kb=1444,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,GRID_CONFIG,GRID_DELTA,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMV_CLEAR,PMV_MENU_CONTEXT,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,",LogAuxSrc=false 
+5.163           DB_TIME              MOOSDB_shoreside 14955110957.50284 
+5.163           DB_UPTIME            MOOSDB_shoreside 7.24035      
+5.163           DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+5.166           DB_VARSUMMARY        MOOSDB_shoreside APPCAST              07:59:59.000         (write pending)      0.0 Hz ~  
+                   APPCAST_REQ          07:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           04:45:52.503         MOOSDB_shoreside     0.3 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.352         MOOSDB_shoreside     0.2 Hz S  pLogger=0:5.17273:5.17...
+DB_RWSUMMARY         04:45:52.352         MOOSDB_shoreside     0.2 Hz S  pLogger=DB_CLIENTS:DB_...
+DB_TIME              04:45:52.502         MOOSDB_shoreside     0.3 Hz D  14955110957.5        
+DB_UPTIME            04:45:52.502         MOOSDB_shoreside     0.3 Hz D  7.2                  
+DB_VARSUMMARY        04:45:52.352         MOOSDB_shoreside     0.2 Hz S  DB_CLIENTS           0...
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     04:45:52.320         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.502         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+5.166           DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:5.17273:0,pMarineViewer=0:0.959396:0.959396:0, 
+5.168           DB_RWSUMMARY         MOOSDB_shoreside pShare=&,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:GRID_CONFIG:GRID_DELTA:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&LOGGER_DIRECTORY:PLOGGER_STATUS 
+5.268           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=1!@#node=shoreside!@#iter=1!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       2!@Draw Count Rate:  13.1066!@Curr Time:        0.00!@Time Warp:        0.000!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.623           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+5.855           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=1.0,key=pMarineViewerstartup,thresh=any 
+5.262           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=2.26929,cpuload=0,memory_kb=1.428e+04,memory_max_kb=1.429e+04,MOOSName=pMarineViewer,Publishing="",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE," 
+5.263           HELM_MAP_CLEAR       pMarineViewer   0.00000      
+5.263           PMV_CONNECT          pMarineViewer   0.00000      
+5.782           PMARINEVIEWER_ITER_GAP pMarineViewer   1.03744      
+5.782           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00028      
+5.797           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=1.69539,cpuload=0,memory_kb=792,memory_max_kb=796,MOOSName=pShare,Publishing="",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+6.115           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+6.115           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+6.320           PMARINEVIEWER_ITER_GAP pMarineViewer   1.07600      
+6.320           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00042      
+6.382           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+6.382           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+6.828           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01616      
+6.828           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00022      
+6.871           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+6.871           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+7.331           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=4.33831,cpuload=0,memory_kb=1.428e+04,memory_max_kb=1.429e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+7.331           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00703      
+7.333           DB_TIME              MOOSDB_shoreside 14955110959.67284 
+7.333           DB_UPTIME            MOOSDB_shoreside 9.41028      
+7.333           DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+7.337           DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.646         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.211         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.211         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+DB_CLIENTS           04:45:52.672         MOOSDB_shoreside     0.4 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.506         MOOSDB_shoreside     0.3 Hz S  pLogger=0:5.17273:5.17...
+DB_RWSUMMARY         04:45:52.507         MOOSDB_shoreside     0.3 Hz S  pShare=&,pMarineViewer...
+DB_TIME              04:45:52.672         MOOSDB_shoreside     0.4 Hz D  14955110959.7        
+DB_UPTIME            04:45:52.672         MOOSDB_shoreside     0.4 Hz D  9.4                  
+DB_VARSUMMARY        04:45:52.506         MOOSDB_shoreside     0.3 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.320         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.471         pNodeReporter        1.4 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.502         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.672         pMarineViewer        1.7 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.169         pMarineViewer        1.5 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.672         pMarineViewer        0.2 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.210         pShare               0.0 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.210         pShare               0.0 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.140         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+7.337           DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:5.17273:0,pMarineViewer=0:0.959396:0.959396:0,pShare=0:5.85175:5.85175:0, 
+7.338           DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+6.869           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+6.869           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+6.935           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=41,YAW=-1.5707963,TIME=14955110959.27,LENGTH=4 
+7.331           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00047      
+7.345           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=7.34464,cpuload=2.801,memory_kb=1444,memory_max_kb=1444,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+7.371           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+7.371           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoreside,thresh=any 
+7.455           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=42,YAW=-1.5707963,TIME=14955110959.79,LENGTH=4 
+7.870           PMARINEVIEWER_ITER_GAP pMarineViewer   1.07852      
+7.871           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00026      
+7.909           APPCAST_REQ          pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+7.910           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+7.910           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+7.933           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=3.8315,cpuload=0,memory_kb=792,memory_max_kb=796,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+7.933           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+7.933           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+7.975           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=43,YAW=-1.5707963,TIME=14955110960.31,LENGTH=4 
+8.371           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00166      
+8.371           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00022      
+7.909           APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+8.476           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=44,YAW=-1.5707963,TIME=14955110960.82,LENGTH=4 
+8.877           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01170      
+8.877           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00048      
+8.986           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=45,YAW=-1.5707963,TIME=14955110961.33,LENGTH=4 
+9.039           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+9.040           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+9.396           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=6.40347,cpuload=61.47,memory_kb=9.673e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+9.396           PMARINEVIEWER_ITER_GAP pMarineViewer   1.03860      
+9.397           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00085      
+9.403           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=9!@#node=shoreside!@#iter=9!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       18!@Draw Count Rate:  44.6103!@Curr Time:        14955110961.22!@Time Warp:        10.000!@Elapsed:          0.50590!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+9.404           DB_TIME              MOOSDB_shoreside 14955110961.74387 
+9.404           DB_UPTIME            MOOSDB_shoreside 11.48131     
+9.404           DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+9.415           DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.646         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.254         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.744         MOOSDB_shoreside     0.4 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.677         MOOSDB_shoreside     0.4 Hz S  pLogger=0:5.17273:5.17...
+DB_RWSUMMARY         04:45:52.678         MOOSDB_shoreside     0.4 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.743         MOOSDB_shoreside     0.4 Hz D  14955110961.7        
+DB_UPTIME            04:45:52.743         MOOSDB_shoreside     0.4 Hz D  11.5                 
+DB_VARSUMMARY        04:45:52.677         MOOSDB_shoreside     0.4 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.320         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.380         pNodeReporter        1.8 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.686         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.743         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.219         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.743         pMarineViewer        0.4 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.380         pShare               0.7 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.380         pShare               0.7 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.278         pShare               0.2 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+9.415           DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:5.17273:0,pMarineViewer=0:0.959396:0.959396:0,pShare=0:5.85175:5.85175:0, 
+9.418           DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+9.487           NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=46,YAW=-1.5707963,TIME=14955110961.83,LENGTH=4 
+9.592           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=9.59208,cpuload=2.801,memory_kb=1444,memory_max_kb=1444,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+9.920           PMARINEVIEWER_ITER_GAP pMarineViewer   1.04772      
+9.921           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+10.033          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=47,YAW=-1.5707963,TIME=14955110962.37,LENGTH=4 
+10.146          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=6.04451,cpuload=2.339,memory_kb=1408,memory_max_kb=1408,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+10.146          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+10.146          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+10.461          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08100      
+10.461          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00076      
+10.545          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=48,YAW=-1.5707963,TIME=14955110962.88,LENGTH=4 
+10.970          PMARINEVIEWER_ITER_GAP pMarineViewer   1.01874      
+10.971          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00062      
+11.070          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=49,YAW=-1.5707963,TIME=14955110963.41,LENGTH=4 
+11.180          LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____11_44_55 
+11.218          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+11.218          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+11.474          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=8.48146,cpuload=61.47,memory_kb=9.673e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+11.474          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00854      
+11.475          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00024      
+11.479          DB_TIME              MOOSDB_shoreside 14955110963.81874 
+11.479          DB_UPTIME            MOOSDB_shoreside 13.55618     
+11.479          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+11.483          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.779         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.254         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.818         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.755         MOOSDB_shoreside     0.4 Hz S  pLogger=0:5.17273:5.17...
+DB_RWSUMMARY         04:45:52.757         MOOSDB_shoreside     0.4 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.818         MOOSDB_shoreside     0.5 Hz D  14955110963.8        
+DB_UPTIME            04:45:52.818         MOOSDB_shoreside     0.5 Hz D  13.6                 
+DB_VARSUMMARY        04:45:52.754         MOOSDB_shoreside     0.4 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.522         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.559         pNodeReporter        1.9 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.933         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.818         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.818         pMarineViewer        2.0 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.818         pMarineViewer        0.4 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.559         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.559         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.492         pShare               0.3 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+11.484          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:0.959396:0.959396:0,pShare=0:5.85175:5.85175:0, 
+11.485          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+11.603          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=50,YAW=-1.5707963,TIME=14955110963.94,LENGTH=4 
+11.647          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=11.6471,cpuload=1.211,memory_kb=1524,memory_max_kb=1524,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+11.985          PMARINEVIEWER_ITER_GAP pMarineViewer   1.02196      
+11.986          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00062      
+12.148          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=51,YAW=-1.5707963,TIME=14955110964.49,LENGTH=4 
+12.294          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=8.19261,cpuload=2.339,memory_kb=1408,memory_max_kb=1408,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+12.295          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+12.295          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+12.535          PMARINEVIEWER_ITER_GAP pMarineViewer   1.09834      
+12.535          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00088      
+12.687          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=52,YAW=-1.5707963,TIME=14955110965.03,LENGTH=4 
+13.037          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00508      
+13.038          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00082      
+13.214          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=53,YAW=-1.5707963,TIME=14955110965.55,LENGTH=4 
+13.371          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+13.371          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+13.539          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=10.5459,cpuload=23.67,memory_kb=9.706e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+13.539          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00384      
+13.539          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00032      
+13.544          DB_TIME              MOOSDB_shoreside 14955110965.88427 
+13.544          DB_UPTIME            MOOSDB_shoreside 15.62172     
+13.544          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+13.551          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.779         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.254         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.884         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.823         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.824         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.884         MOOSDB_shoreside     0.5 Hz D  14955110965.9        
+DB_UPTIME            04:45:52.884         MOOSDB_shoreside     0.5 Hz D  15.6                 
+DB_VARSUMMARY        04:45:52.823         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.522         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.712         pNodeReporter        1.8 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.988         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.884         pMarineViewer        2.0 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.884         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.884         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.766         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.766         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.637         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+13.551          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:5.85175:0, 
+13.552          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+13.725          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=54,YAW=-1.5707963,TIME=14955110966.06,LENGTH=4 
+13.868          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=13.8672,cpuload=1.211,memory_kb=1524,memory_max_kb=1524,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+14.090          PMARINEVIEWER_ITER_GAP pMarineViewer   1.10214      
+14.091          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00102      
+14.236          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=55,YAW=-1.5707963,TIME=14955110966.58,LENGTH=4 
+14.464          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=10.3625,cpuload=0.5183,memory_kb=1408,memory_max_kb=1408,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+14.464          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+14.464          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+14.621          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06260      
+14.622          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00082      
+14.738          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=56,YAW=-1.5707963,TIME=14955110967.08,LENGTH=4 
+15.139          PMARINEVIEWER_ITER_GAP pMarineViewer   1.03498      
+15.139          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00068      
+15.240          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=57,YAW=-1.5707963,TIME=14955110967.58,LENGTH=4 
+15.497          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+15.497          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+15.664          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=12.6711,cpuload=23.67,memory_kb=9.706e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+15.665          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05177      
+15.665          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00064      
+15.668          DB_TIME              MOOSDB_shoreside 14955110968.00793 
+15.668          DB_UPTIME            MOOSDB_shoreside 17.74542     
+15.668          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+15.680          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.779         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.254         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.008         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.891         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.891         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.007         MOOSDB_shoreside     0.5 Hz D  14955110968.0        
+DB_UPTIME            04:45:52.008         MOOSDB_shoreside     0.5 Hz D  17.7                 
+DB_VARSUMMARY        04:45:52.890         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.522         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.838         pNodeReporter        1.9 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.209         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.481         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.523         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.007         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.838         pShare               1.0 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.838         pShare               1.0 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.805         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+15.680          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:5.85175:0, 
+15.681          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+15.747          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=58,YAW=-1.5707963,TIME=14955110968.09,LENGTH=4 
+16.053          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=16.0529,cpuload=1.203,memory_kb=1556,memory_max_kb=1556,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+16.164          PMARINEVIEWER_ITER_GAP pMarineViewer   0.99804      
+16.165          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00184      
+16.259          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=59,YAW=-1.5707963,TIME=14955110968.6,LENGTH=4 
+16.561          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=12.4595,cpuload=0.5183,memory_kb=1408,memory_max_kb=1408,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+16.561          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+16.561          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+16.689          PMARINEVIEWER_ITER_GAP pMarineViewer   1.04982      
+16.690          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00154      
+16.776          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=60,YAW=-1.5707963,TIME=14955110969.12,LENGTH=4 
+17.194          PMARINEVIEWER_ITER_GAP pMarineViewer   1.01058      
+17.195          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00100      
+17.276          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=61,YAW=-1.5707963,TIME=14955110969.62,LENGTH=4 
+17.701          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+17.701          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+17.701          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=14.7081,cpuload=23.67,memory_kb=9.706e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+17.701          PMARINEVIEWER_ITER_GAP pMarineViewer   1.01488      
+17.702          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00070      
+17.703          DB_TIME              MOOSDB_shoreside 14955110970.04304 
+17.703          DB_UPTIME            MOOSDB_shoreside 19.78049     
+17.703          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+17.709          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.779         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.254         pMarineViewer        2.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.254         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.043         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.020         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.021         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.043         MOOSDB_shoreside     0.5 Hz D  14955110970.0        
+DB_UPTIME            04:45:52.043         MOOSDB_shoreside     0.5 Hz D  19.8                 
+DB_VARSUMMARY        04:45:52.019         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.522         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.756         pNodeReporter        2.1 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.394         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.536         pMarineViewer        2.0 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.576         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.007         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.043         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.042         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.903         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+17.709          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:3.37029:0, 
+17.713          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+17.807          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=62,YAW=-1.5707963,TIME=14955110970.15,LENGTH=4 
+18.070          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=18.069,cpuload=1.203,memory_kb=1556,memory_max_kb=1556,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+18.236          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06928      
+18.237          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00100      
+18.301          APPCAST_REQ          pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+18.301          APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+18.301          APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+18.301          APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+18.307          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=63,YAW=-1.5707963,TIME=14955110970.65,LENGTH=4 
+18.748          PMARINEVIEWER_ITER_GAP pMarineViewer   1.02392      
+18.749          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00084      
+18.752          APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=27!@#node=shoreside!@#iter=27!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       54!@Draw Count Rate:  40.339!@Curr Time:        14955110970.58!@Time Warp:        10.000!@Elapsed:          0.53492!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+18.798          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=14.6967,cpuload=0.5183,memory_kb=1408,memory_max_kb=1408,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+18.798          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+18.798          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+18.841          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=64,YAW=-1.5707963,TIME=14955110971.18,LENGTH=4 
+19.287          PMARINEVIEWER_ITER_GAP pMarineViewer   1.07760      
+19.287          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+19.361          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=65,YAW=-1.5707963,TIME=14955110971.7,LENGTH=4 
+19.800          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=16.8071,cpuload=23.62,memory_kb=9.73e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+19.800          PMARINEVIEWER_ITER_GAP pMarineViewer   1.02708      
+19.801          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00050      
+19.803          DB_TIME              MOOSDB_shoreside 14955110972.14255 
+19.803          DB_UPTIME            MOOSDB_shoreside 21.87999     
+19.803          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+19.810          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.131         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.641         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.142         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.049         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.052         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.142         MOOSDB_shoreside     0.5 Hz D  14955110972.1        
+DB_UPTIME            04:45:52.142         MOOSDB_shoreside     0.5 Hz D  21.9                 
+DB_VARSUMMARY        04:45:52.048         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.522         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.987         pNodeReporter        1.8 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.410         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.142         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.142         pMarineViewer        2.0 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.142         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.181         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.180         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.139         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               07:59:59.000         (write pending)      0.0 Hz ~  
+                   TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+19.810          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:3.37029:0, 
+19.811          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+19.934          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+19.934          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+19.892          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=66,YAW=-1.5707963,TIME=14955110972.23,LENGTH=4 
+20.117          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=20.1162,cpuload=1.323,memory_kb=1576,memory_max_kb=1576,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+20.305          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00876      
+20.305          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00090      
+20.393          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=67,YAW=-1.5707963,TIME=14955110972.73,LENGTH=4 
+20.841          PMARINEVIEWER_ITER_GAP pMarineViewer   1.07174      
+20.841          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00084      
+20.890          DEPLOY               pMarineViewer   true 
+20.890          MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+20.890          RETURN               pMarineViewer   false 
+20.928          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=16.8267,cpuload=0.5837,memory_kb=1440,memory_max_kb=1440,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+20.912          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=68,YAW=-1.5707963,TIME=14955110973.25,LENGTH=4 
+21.184          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+21.184          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+21.256          LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____11_44_55 
+21.373          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06392      
+21.373          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00038      
+21.433          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82512721,LON=-70.32977435,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=69,YAW=-1.5707963,TIME=14955110973.77,LENGTH=4 
+21.926          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=18.9324,cpuload=23.62,memory_kb=9.73e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+21.926          PMARINEVIEWER_ITER_GAP pMarineViewer   1.10642      
+21.926          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00042      
+21.930          DB_TIME              MOOSDB_shoreside 14955110974.26985 
+21.930          DB_UPTIME            MOOSDB_shoreside 24.00730     
+21.930          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+21.945          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.131         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.641         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.269         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.150         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.150         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.269         MOOSDB_shoreside     0.5 Hz D  14955110974.3        
+DB_UPTIME            04:45:52.269         MOOSDB_shoreside     0.5 Hz D  24.0                 
+DB_VARSUMMARY        04:45:52.149         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.597         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.112         pNodeReporter        1.8 Hz S  NAME=bravo,X=50,Y=-20,...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.458         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.269         pMarineViewer        1.8 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.714         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.269         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.565         pShare               0.8 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.565         pShare               0.8 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.269         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+21.945          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:3.37029:0, 
+21.947          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+21.980          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50.14,Y=-20.62,SPD=1.52,HDG=158.78,DEP=0,LAT=43.82512169,LON=-70.3297725,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=70,YAW=-1.2005044,TIME=14955110974.32,LENGTH=4 
+22.169          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=22.1669,cpuload=1.323,memory_kb=1576,memory_max_kb=1576,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+22.307          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+22.307          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+22.470          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08902      
+22.471          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00066      
+22.515          NODE_REPORT2         pNodeReporter   NAME=bravo,X=50.71,Y=-21.66,SPD=2.41,HDG=145.32,DEP=0,LAT=43.82511235,LON=-70.32976521,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=71,YAW=-0.965554,TIME=14955110974.85,LENGTH=4 
+23.005          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06964      
+23.005          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00058      
+23.049          NODE_REPORT2         pNodeReporter   NAME=bravo,X=51.68,Y=-22.83,SPD=2.89,HDG=135.37,DEP=0,LAT=43.82510195,LON=-70.32975284,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=72,YAW=-0.7917784,TIME=14955110975.39,LENGTH=4 
+23.158          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=19.0557,cpuload=0.5837,memory_kb=1440,memory_max_kb=1440,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+23.437          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+23.437          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+23.507          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00430      
+23.508          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00048      
+23.577          NODE_REPORT2         pNodeReporter   NAME=bravo,X=52.91,Y=-23.91,SPD=3.16,HDG=127.72,DEP=0,LAT=43.82509241,LON=-70.32973737,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=73,YAW=-0.6582887,TIME=14955110975.92,LENGTH=4 
+23.934          DB_TIME              MOOSDB_shoreside 14955110976.27410 
+23.934          DB_UPTIME            MOOSDB_shoreside 26.01155     
+23.934          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+23.938          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.131         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.641         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.274         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.285         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.287         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.274         MOOSDB_shoreside     0.5 Hz D  14955110976.3        
+DB_UPTIME            04:45:52.274         MOOSDB_shoreside     0.5 Hz D  26.0                 
+DB_VARSUMMARY        04:45:52.284         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.597         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.033         pNodeReporter        1.9 Hz S  NAME=bravo,X=52.91,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.511         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.848         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.900         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.269         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.779         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.779         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.500         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+23.938          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:3.37029:0, 
+23.939          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+24.048          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=21.0547,cpuload=25.1,memory_kb=9.762e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+24.048          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08086      
+24.048          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00026      
+24.099          NODE_REPORT2         pNodeReporter   NAME=bravo,X=54.43,Y=-24.96,SPD=3.39,HDG=121.89,DEP=0,LAT=43.82508318,LON=-70.32971828,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=74,YAW=-0.5566071,TIME=14955110976.44,LENGTH=4 
+24.348          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=24.3478,cpuload=1.323,memory_kb=1576,memory_max_kb=1576,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+24.559          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+24.559          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+24.576          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05702      
+24.577          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00102      
+24.631          NODE_REPORT2         pNodeReporter   NAME=bravo,X=56.23,Y=-25.99,SPD=3.59,HDG=117.92,DEP=0,LAT=43.82507419,LON=-70.32969573,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=75,YAW=-0.4873588,TIME=14955110976.97,LENGTH=4 
+25.120          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08812      
+25.121          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00162      
+25.148          NODE_REPORT2         pNodeReporter   NAME=bravo,X=58.1,Y=-26.94,SPD=3.79,HDG=116.21,DEP=0,LAT=43.82506589,LON=-70.32967225,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=76,YAW=-0.4574731,TIME=14955110977.49,LENGTH=4 
+25.425          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=21.3232,cpuload=0.5935,memory_kb=1444,memory_max_kb=1444,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+25.649          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05716      
+25.649          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00100      
+25.693          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+25.693          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+25.688          NODE_REPORT2         pNodeReporter   NAME=bravo,X=60.01,Y=-27.87,SPD=3.91,HDG=115.74,DEP=0,LAT=43.82505781,LON=-70.32964835,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=77,YAW=-0.4491628,TIME=14955110978.03,LENGTH=4 
+25.966          DB_TIME              MOOSDB_shoreside 14955110978.30541 
+25.966          DB_UPTIME            MOOSDB_shoreside 28.04285     
+25.966          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+25.970          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.131         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.641         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.305         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.277         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.278         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.305         MOOSDB_shoreside     0.5 Hz D  14955110978.3        
+DB_UPTIME            04:45:52.305         MOOSDB_shoreside     0.5 Hz D  28.0                 
+DB_VARSUMMARY        04:45:52.277         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.597         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.305         pNodeReporter        1.8 Hz S  NAME=bravo,X=60.01,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.690         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.990         pMarineViewer        1.9 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.034         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.389         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.035         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.035         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.766         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+25.970          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:3.37029:0, 
+25.971          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+26.191          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=23.1977,cpuload=25.1,memory_kb=9.762e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+26.192          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08564      
+26.192          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00066      
+26.203          NODE_REPORT2         pNodeReporter   NAME=bravo,X=62.03,Y=-28.86,SPD=3.91,HDG=116.5,DEP=0,LAT=43.82504923,LON=-70.32962296,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=78,YAW=-0.4625044,TIME=14955110978.54,LENGTH=4 
+26.395          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=26.3944,cpuload=1.539,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+26.718          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05190      
+26.718          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00070      
+26.720          NODE_REPORT2         pNodeReporter   NAME=bravo,X=63.07,Y=-29.39,SPD=3.88,HDG=117.32,DEP=0,LAT=43.82504462,LON=-70.32960992,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=79,YAW=-0.4768452,TIME=14955110979.06,LENGTH=4 
+26.772          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+26.772          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+27.218          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00140      
+27.219          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00068      
+27.263          NODE_REPORT2         pNodeReporter   NAME=bravo,X=64.94,Y=-30.38,SPD=3.85,HDG=118.94,DEP=0,LAT=43.82503591,LON=-70.3295865,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=80,YAW=-0.5051799,TIME=14955110979.6,LENGTH=4 
+27.634          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=23.5327,cpuload=0.5935,memory_kb=1444,memory_max_kb=1444,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+27.766          PMARINEVIEWER_ITER_GAP pMarineViewer   1.09608      
+27.767          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00078      
+27.770          NODE_REPORT2         pNodeReporter   NAME=bravo,X=66.72,Y=-31.4,SPD=3.86,HDG=120.28,DEP=0,LAT=43.82502705,LON=-70.32956414,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=81,YAW=-0.528552,TIME=14955110980.11,LENGTH=4 
+27.886          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+27.886          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+28.308          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=25.3149,cpuload=23.34,memory_kb=9.786e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+28.308          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08381      
+28.309          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00048      
+28.313          DB_TIME              MOOSDB_shoreside 14955110980.65263 
+28.313          DB_UPTIME            MOOSDB_shoreside 30.39008     
+28.313          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+28.320          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.131         pMarineViewer        0.1 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.682         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.641         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.652         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.309         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.310         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.652         MOOSDB_shoreside     0.5 Hz D  14955110980.7        
+DB_UPTIME            04:45:52.652         MOOSDB_shoreside     0.5 Hz D  30.4                 
+DB_VARSUMMARY        04:45:52.309         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.597         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.227         pNodeReporter        2.0 Hz S  NAME=bravo,X=66.72,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.737         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.652         pMarineViewer        1.9 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.652         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.652         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.227         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.227         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.976         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+28.320          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:1.19972:0, 
+28.325          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+28.369          APPCAST_REQ          pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+28.369          APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+28.369          APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+28.369          APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+28.309          NODE_REPORT2         pNodeReporter   NAME=bravo,X=68.59,Y=-32.51,SPD=3.89,HDG=121.35,DEP=0,LAT=43.82501731,LON=-70.32954076,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=82,YAW=-0.547103,TIME=14955110980.65,LENGTH=4 
+28.456          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=28.4554,cpuload=1.539,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+28.832          PMARINEVIEWER_ITER_GAP pMarineViewer   1.04754      
+28.837          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00926      
+28.833          NODE_REPORT2         pNodeReporter   NAME=bravo,X=70.37,Y=-33.61,SPD=3.93,HDG=121.98,DEP=0,LAT=43.82500767,LON=-70.32951839,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=83,YAW=-0.5580994,TIME=14955110981.17,LENGTH=4 
+28.842          APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=46!@#node=shoreside!@#iter=46!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       92!@Draw Count Rate:  39.1981!@Curr Time:        14955110980.65!@Time Warp:        10.000!@Elapsed:          0.54170!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+29.013          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+29.013          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+29.354          PMARINEVIEWER_ITER_GAP pMarineViewer   1.04441      
+29.354          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00038      
+29.358          NODE_REPORT2         pNodeReporter   NAME=bravo,X=72.19,Y=-34.76,SPD=3.93,HDG=122.58,DEP=0,LAT=43.8249976,LON=-70.32949554,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=84,YAW=-0.568687,TIME=14955110981.7,LENGTH=4 
+29.841          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=25.7394,cpuload=0.612,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+29.895          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08084      
+29.895          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00086      
+29.899          NODE_REPORT2         pNodeReporter   NAME=bravo,X=74.06,Y=-35.96,SPD=3.94,HDG=123.15,DEP=0,LAT=43.82498699,LON=-70.32947205,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=85,YAW=-0.5786472,TIME=14955110982.24,LENGTH=4 
+30.114          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+30.114          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+30.436          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=27.4432,cpuload=23.34,memory_kb=9.786e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+30.437          PMARINEVIEWER_ITER_GAP pMarineViewer   1.08374      
+30.437          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00034      
+30.439          DB_TIME              MOOSDB_shoreside 14955110982.77916 
+30.439          DB_UPTIME            MOOSDB_shoreside 32.51660     
+30.439          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+30.447          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.220         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.710         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.779         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.660         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.665         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.779         MOOSDB_shoreside     0.5 Hz D  14955110982.8        
+DB_UPTIME            04:45:52.779         MOOSDB_shoreside     0.5 Hz D  32.5                 
+DB_VARSUMMARY        04:45:52.659         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.597         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.457         pNodeReporter        1.8 Hz S  NAME=bravo,X=74.06,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.799         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.779         pMarineViewer        1.9 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.779         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.779         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.457         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.457         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.184         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+30.447          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:1.19972:0, 
+30.449          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+30.460          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=30.4583,cpuload=1.325,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+30.438          NODE_REPORT2         pNodeReporter   NAME=bravo,X=75.85,Y=-37.14,SPD=3.96,HDG=123.49,DEP=0,LAT=43.82497664,LON=-70.32944954,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=86,YAW=-0.5845299,TIME=14955110982.78,LENGTH=4 
+30.986          PMARINEVIEWER_ITER_GAP pMarineViewer   1.09856      
+30.986          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00070      
+30.988          NODE_REPORT2         pNodeReporter   NAME=bravo,X=77.64,Y=-38.33,SPD=3.98,HDG=123.7,DEP=0,LAT=43.8249662,LON=-70.32942705,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=87,YAW=-0.5882163,TIME=14955110983.33,LENGTH=4 
+31.227          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+31.227          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+31.302          LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____11_44_55 
+31.515          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05882      
+31.516          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00062      
+31.517          NODE_REPORT2         pNodeReporter   NAME=bravo,X=79.43,Y=-39.53,SPD=3.98,HDG=123.83,DEP=0,LAT=43.8249557,LON=-70.32940459,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=88,YAW=-0.5905269,TIME=14955110983.86,LENGTH=4 
+32.016          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00170      
+32.016          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00054      
+32.068          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=27.9667,cpuload=0.612,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+32.038          NODE_REPORT2         pNodeReporter   NAME=bravo,X=81.27,Y=-40.76,SPD=3.99,HDG=123.92,DEP=0,LAT=43.82494482,LON=-70.32938142,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=89,YAW=-0.5920172,TIME=14955110984.38,LENGTH=4 
+32.339          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+32.339          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+32.518          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=29.5245,cpuload=23.34,memory_kb=9.786e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+32.518          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00308      
+32.518          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00024      
+32.519          DB_TIME              MOOSDB_shoreside 14955110984.85864 
+32.519          DB_UPTIME            MOOSDB_shoreside 34.59673     
+32.519          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+32.523          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.220         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.710         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.859         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.787         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.789         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.859         MOOSDB_shoreside     0.5 Hz D  14955110984.9        
+DB_UPTIME            04:45:52.859         MOOSDB_shoreside     0.5 Hz D  34.6                 
+DB_VARSUMMARY        04:45:52.786         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.644         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.681         pNodeReporter        1.8 Hz S  NAME=bravo,X=81.27,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.806         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.358         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.398         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.858         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.682         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.681         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.413         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+32.523          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:1.74904:0.959396:0,pShare=0:5.85175:1.19972:0, 
+32.524          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+32.542          NODE_REPORT2         pNodeReporter   NAME=bravo,X=83.06,Y=-41.97,SPD=3.99,HDG=123.97,DEP=0,LAT=43.82493422,LON=-70.32935889,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=90,YAW=-0.5929161,TIME=14955110984.88,LENGTH=4 
+32.666          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=32.6656,cpuload=1.325,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+33.019          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00270      
+33.019          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00056      
+33.043          NODE_REPORT2         pNodeReporter   NAME=bravo,X=84.91,Y=-43.22,SPD=4,HDG=124,DEP=0,LAT=43.82492325,LON=-70.32933562,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=91,YAW=-0.5934965,TIME=14955110985.38,LENGTH=4 
+33.456          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+33.456          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+33.552          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06588      
+33.552          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00090      
+33.554          NODE_REPORT2         pNodeReporter   NAME=bravo,X=85.82,Y=-43.83,SPD=4,HDG=124.02,DEP=0,LAT=43.82491785,LON=-70.32932418,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=92,YAW=-0.5936923,TIME=14955110985.89,LENGTH=4 
+34.099          PMARINEVIEWER_ITER_GAP pMarineViewer   1.09336      
+34.099          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00110      
+34.100          NODE_REPORT2         pNodeReporter   NAME=bravo,X=87.61,Y=-45.04,SPD=4,HDG=124.03,DEP=0,LAT=43.82490727,LON=-70.32930177,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=93,YAW=-0.5939541,TIME=14955110986.44,LENGTH=4 
+34.258          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=30.1565,cpuload=0.5301,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+34.542          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+34.542          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+34.544          DB_TIME              MOOSDB_shoreside 14955110986.88420 
+34.544          DB_UPTIME            MOOSDB_shoreside 36.62163     
+34.544          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+34.547          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.220         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.710         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.884         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.863         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.863         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.884         MOOSDB_shoreside     0.5 Hz D  14955110986.9        
+DB_UPTIME            04:45:52.884         MOOSDB_shoreside     0.5 Hz D  36.6                 
+DB_VARSUMMARY        04:45:52.863         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.644         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.599         pNodeReporter        1.9 Hz S  NAME=bravo,X=87.61,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.008         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.455         pMarineViewer        1.9 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.481         pMarineViewer        1.8 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.858         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.884         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.884         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.599         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+34.547          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:3.38173:0.959396:0,pShare=0:5.85175:1.19972:0, 
+34.548          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+34.646          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=31.6534,cpuload=26.64,memory_kb=9.809e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+34.646          NODE_REPORT2         pNodeReporter   NAME=bravo,X=89.43,Y=-46.27,SPD=4,HDG=124.04,DEP=0,LAT=43.82489643,LON=-70.32927881,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=94,YAW=-0.594095,TIME=14955110986.99,LENGTH=4 
+34.647          PMARINEVIEWER_ITER_GAP pMarineViewer   1.09600      
+34.647          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+34.676          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=34.6731,cpuload=1.325,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+35.183          PMARINEVIEWER_ITER_GAP pMarineViewer   1.07224      
+35.184          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00198      
+35.185          NODE_REPORT2         pNodeReporter   NAME=bravo,X=91.23,Y=-47.49,SPD=4,HDG=124.04,DEP=0,LAT=43.82488576,LON=-70.32925621,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=95,YAW=-0.5941484,TIME=14955110987.52,LENGTH=4 
+35.604          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+35.604          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+35.715          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06434      
+35.715          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00082      
+35.717          NODE_REPORT2         pNodeReporter   NAME=bravo,X=93.08,Y=-48.73,SPD=4,HDG=124.04,DEP=0,LAT=43.8248748,LON=-70.32923301,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=96,YAW=-0.5941434,TIME=14955110988.06,LENGTH=4 
+36.216          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00228      
+36.216          NODE_REPORT2         pNodeReporter   NAME=bravo,X=94.96,Y=-50.01,SPD=4,HDG=124.04,DEP=0,LAT=43.82486361,LON=-70.32920931,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=97,YAW=-0.5940994,TIME=14955110988.56,LENGTH=4 
+36.216          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+36.420          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=32.3186,cpuload=0.5301,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+36.672          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+36.672          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+36.675          DB_TIME              MOOSDB_shoreside 14955110989.01515 
+36.675          DB_UPTIME            MOOSDB_shoreside 38.75261     
+36.675          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+36.681          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.220         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.710         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.015         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.887         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.887         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.015         MOOSDB_shoreside     0.5 Hz D  14955110989.0        
+DB_UPTIME            04:45:52.015         MOOSDB_shoreside     0.5 Hz D  38.8                 
+DB_VARSUMMARY        04:45:52.887         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.644         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.763         pNodeReporter        1.8 Hz S  NAME=bravo,X=94.96,Y=-...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.020         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.557         pMarineViewer        1.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.604         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.001         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.015         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.015         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.763         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+36.681          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:3.38173:0.959396:0,pShare=0:5.85175:1.19972:0, 
+36.682          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+36.695          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=36.6951,cpuload=1.494,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+36.720          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=33.7268,cpuload=26.64,memory_kb=9.809e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+36.720          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00740      
+36.720          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00024      
+36.720          NODE_REPORT2         pNodeReporter   NAME=bravo,X=96.63,Y=-51.13,SPD=4,HDG=124.04,DEP=0,LAT=43.82485371,LON=-70.32918835,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=98,YAW=-0.5940437,TIME=14955110989.06,LENGTH=4 
+37.221          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00312      
+37.222          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00100      
+37.226          NODE_REPORT2         pNodeReporter   NAME=bravo,X=98.38,Y=-52.31,SPD=4,HDG=124.03,DEP=0,LAT=43.82484333,LON=-70.32916638,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=99,YAW=-0.5939738,TIME=14955110989.56,LENGTH=4 
+37.747          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05062      
+37.747          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00104      
+37.750          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+37.750          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+37.749          NODE_REPORT2         pNodeReporter   NAME=bravo,X=100.18,Y=-53.53,SPD=4,HDG=124.03,DEP=0,LAT=43.82483267,LON=-70.32914379,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=100,YAW=-0.5939014,TIME=14955110990.09,LENGTH=4 
+38.286          PMARINEVIEWER_ITER_GAP pMarineViewer   1.07848      
+38.286          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00072      
+38.287          NODE_REPORT2         pNodeReporter   NAME=bravo,X=101.97,Y=-54.73,SPD=3.98,HDG=123.8,DEP=0,LAT=43.82482207,LON=-70.3291213,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=101,YAW=-0.5899139,TIME=14955110990.63,LENGTH=4 
+38.590          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=34.4881,cpuload=0.5301,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+38.820          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=35.8268,cpuload=22.31,memory_kb=9.836e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+38.820          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06882      
+38.821          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00074      
+38.829          DB_TIME              MOOSDB_shoreside 14955110991.16886 
+38.829          DB_UPTIME            MOOSDB_shoreside 40.90631     
+38.829          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+38.833          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.220         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.753         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.710         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.169         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.020         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.022         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.168         MOOSDB_shoreside     0.5 Hz D  14955110991.2        
+DB_UPTIME            04:45:52.168         MOOSDB_shoreside     0.5 Hz D  40.9                 
+DB_VARSUMMARY        04:45:52.020         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.644         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.658         pNodeReporter        1.9 Hz S  NAME=bravo,X=101.97,Y=...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.039         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.168         pMarineViewer        1.9 Hz D  1.1                  
+PMARINEVIEWER_ITER_LEN 04:45:52.168         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.168         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.103         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.103         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.935         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+38.833          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:3.38173:0.959396:0,pShare=0:5.85175:1.19972:0, 
+38.834          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+38.822          NODE_REPORT2         pNodeReporter   NAME=bravo,X=103.87,Y=-56,SPD=3.97,HDG=123.46,DEP=0,LAT=43.82481097,LON=-70.32909741,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=102,YAW=-0.5840545,TIME=14955110991.16,LENGTH=4 
+38.880          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+38.880          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+38.898          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=38.8978,cpuload=1.494,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+38.911          APPCAST_REQ          pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+38.911          APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+38.912          APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+38.912          APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+39.325          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00912      
+39.325          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00024      
+39.326          NODE_REPORT2         pNodeReporter   NAME=bravo,X=105.63,Y=-57.16,SPD=3.98,HDG=123.27,DEP=0,LAT=43.82480076,LON=-70.32907523,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=103,YAW=-0.5807147,TIME=14955110991.67,LENGTH=4 
+39.327          APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=66!@#node=shoreside!@#iter=66!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       132!@Draw Count Rate:  38.8655!@Curr Time:        14955110991.16!@Time Warp:        10.000!@Elapsed:          0.53430!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+39.860          PMARINEVIEWER_ITER_GAP pMarineViewer   1.06994      
+39.860          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+39.862          NODE_REPORT2         pNodeReporter   NAME=bravo,X=107.37,Y=-58.4,SPD=3.91,HDG=131.56,DEP=0,LAT=43.82478987,LON=-70.32905334,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=104,YAW=-0.7253379,TIME=14955110992.2,LENGTH=4 
+39.991          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+39.991          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+40.380          PMARINEVIEWER_ITER_GAP pMarineViewer   1.03948      
+40.380          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00064      
+40.381          NODE_REPORT2         pNodeReporter   NAME=bravo,X=108.69,Y=-59.86,SPD=3.78,HDG=144.1,DEP=0,LAT=43.82477692,LON=-70.3290367,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=105,YAW=-0.9442285,TIME=14955110992.72,LENGTH=4 
+40.816          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=36.7149,cpuload=0.6678,memory_kb=1476,memory_max_kb=1476,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="DEPLOY,MOOS_MANUAL_OVERRIDE,PSHARE_CMD,RETURN," 
+40.883          PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=37.89,cpuload=22.31,memory_kb=9.836e+04,memory_max_kb=9.888e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DEPLOY,HELM_MAP_CLEAR,MOOS_MANUAL_OVERRIDE,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,RETURN,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT," 
+40.883          PMARINEVIEWER_ITER_GAP pMarineViewer   1.00734      
+40.883          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00032      
+40.885          DB_TIME              MOOSDB_shoreside 14955110993.22459 
+40.885          DB_UPTIME            MOOSDB_shoreside 42.96204     
+40.885          DB_CLIENTS           MOOSDB_shoreside pShare,pMarineViewer,pLogger, 
+40.890          DB_VARSUMMARY        MOOSDB_shoreside APPCAST              04:45:52.708         pMarineViewer        0.0 Hz S  proc=pMarineViewer!@#i...
+APPCAST_REQ          04:45:52.252         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      04:45:52.252         pMarineViewer        0.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_SHORESIDE 04:45:52.252         pMarineViewer        0.0 Hz S  node=shoreside,app=pMa...
+DB_CLIENTS           04:45:52.224         MOOSDB_shoreside     0.5 Hz S  pShare,pMarineViewer,p...
+DB_EVENT             04:45:52.249         MOOSDB_shoreside     0.4 Hz S  connected=pShare    
+DB_QOS               04:45:52.173         MOOSDB_shoreside     0.5 Hz S  pLogger=0:5.17273:1.20...
+DB_RWSUMMARY         04:45:52.174         MOOSDB_shoreside     0.5 Hz S  pShare=DEPLOY:MOOS_MAN...
+DB_TIME              04:45:52.224         MOOSDB_shoreside     0.5 Hz D  14955110993.2        
+DB_UPTIME            04:45:52.224         MOOSDB_shoreside     0.5 Hz D  43.0                 
+DB_VARSUMMARY        04:45:52.173         MOOSDB_shoreside     0.5 Hz S  APPCAST              0...
+DEPLOY               04:45:52.264         pMarineViewer        0.0 Hz S  true                
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+LOGGER_DIRECTORY     04:45:52.644         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 04:45:52.264         pMarineViewer        0.0 Hz S  false               
+MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_LCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MVIEWER_RCLICK       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT2         04:45:52.895         pNodeReporter        1.8 Hz S  NAME=bravo,X=108.69,Y=...
+NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_IP          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       04:45:52.242         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 04:45:52.224         pMarineViewer        2.0 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 04:45:52.723         pMarineViewer        1.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 04:45:52.224         pMarineViewer        0.5 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          04:45:52.606         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 04:45:52.335         pShare               0.9 Hz S  localhost:9200      
+PSHARE_OUTPUT_SUMMARY 04:45:52.335         pShare               0.9 Hz S  DEPLOY->DEPLOY:localho...
+PSHARE_STATUS        04:45:52.159         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+RETURN               04:45:52.264         pMarineViewer        0.0 Hz S  false               
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_STAT             07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+40.890          DB_QOS               MOOSDB_shoreside pLogger=0:5.17273:1.20926:0,pMarineViewer=0:3.38173:0.959396:0,pShare=0:5.85175:1.19972:0, 
+40.891          DB_RWSUMMARY         MOOSDB_shoreside pShare=DEPLOY:MOOS_MANUAL_OVERRIDE:PSHARE_CMD:RETURN&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DEPLOY:HELM_MAP_CLEAR:MOOS_MANUAL_OVERRIDE:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT:RETURN,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:APPCAST_REQ_SHORESIDE:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DEPLOY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:MVIEWER_LCLICK:MVIEWER_RCLICK:NODE_REPORT:NODE_REPORT2:NODE_REPORT_LOCAL:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:RETURN:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE:WPT_STAT&LOGGER_DIRECTORY:PLOGGER_STATUS 
+40.883          NODE_REPORT2         pNodeReporter   NAME=bravo,X=109.26,Y=-60.73,SPD=3.71,HDG=149.9,DEP=0,LAT=43.82476915,LON=-70.32902949,TYPE=kayak,COLOR=yellow,MODE=DRIVE,ALLSTOP=clear,INDEX=106,YAW=-1.0453871,TIME=14955110993.22,LENGTH=4 
+41.112          PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLOY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+41.112          PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+41.115          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=41.1149,cpuload=1.255,memory_kb=1608,memory_max_kb=1608,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_SHORESIDE,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,MVIEWER_LCLICK,MVIEWER_RCLICK,NODE_REPORT,NODE_REPORT2,NODE_REPORT_LOCAL,PHI_HOST_IP,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RETURN,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,WPT_STAT,",LogAuxSrc=false 
+41.361          LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____11_44_55 
+41.413          PMARINEVIEWER_ITER_GAP pMarineViewer   1.05858      
+41.413          PMARINEVIEWER_ITER_LEN pMarineViewer   0.00090      

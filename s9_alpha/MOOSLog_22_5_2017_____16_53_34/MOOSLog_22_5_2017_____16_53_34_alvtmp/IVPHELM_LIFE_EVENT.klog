@@ -1,0 +1,3 @@
+38.196          IVPHELM_LIFE_EVENT   pHelmIvP        time=31.45, iter=1, bname=loiter, btype=BHV_Loiter, event=spawn, seed=helm_startup 
+38.196          IVPHELM_LIFE_EVENT   pHelmIvP        time=31.45, iter=1, bname=waypt_return, btype=BHV_Waypoint, event=spawn, seed=helm_startup 
+38.196          IVPHELM_LIFE_EVENT   pHelmIvP        time=31.45, iter=1, bname=const_depth, btype=BHV_ConstantDepth, event=spawn, seed=helm_startup 

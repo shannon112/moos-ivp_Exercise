@@ -1,0 +1,3 @@
+38.196          IVPHELM_BHV_IDLE     pHelmIvP        waypt_return 
+263.133         IVPHELM_BHV_IDLE     pHelmIvP        loiter 
+316.294         IVPHELM_BHV_IDLE     pHelmIvP        loiter,waypt_return,const_depth 

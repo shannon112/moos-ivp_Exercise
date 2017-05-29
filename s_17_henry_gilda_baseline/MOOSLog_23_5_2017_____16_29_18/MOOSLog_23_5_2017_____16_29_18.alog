@@ -1,0 +1,374 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_23_5_2017_____16_29_18/MOOSLog_23_5_2017_____16_29_18.alog
+%% FILE OPENED ON  Thu Jan  1 08:00:00 1970
+%% LOGSTART               1495528158.17
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.519           DB_EVENT             MOOSDB_$(VNAME) connected=uFldShoreBroker 
+0.663           LOGGER_DIRECTORY     pLogger         ./MOOSLog_23_5_2017_____16_29_18 
+0.869           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.868885,cpuload=1.005,memory_kb=1140,memory_max_kb=1140,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=false 
+0.991           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=1!@#node=$(VNAME)!@#iter=1!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       3!@Draw Count Rate:  16.1018!@Curr Time:        0.00!@Time Warp:        1.000!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.001           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+1.245           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=0.1,key=pMarineViewerstartup,thresh=any 
+1.251           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+1.497           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=3!@#node=$(VNAME)!@#iter=3!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       7!@Draw Count Rate:  10.1055!@Curr Time:        1495528159.41!@Time Warp:        1.000!@Elapsed:          0.00006!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.501           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+1.559           PHI_HOST_IP          pHostInfo       localhost 
+1.559           PHI_HOST_INFO        pHostInfo       community=$(VNAME),hostip=localhost,port_db=9000,timewarp=1 
+1.559           APPCAST              pHostInfo       proc=pHostInfo!@#iter=1!@#node=$(VNAME)!@#iter=1!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.560           APPCAST              pHostInfo       proc=pHostInfo!@#iter=2!@#node=$(VNAME)!@#iter=2!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.753           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+1.757           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+1.896           DB_TIME              MOOSDB_$(VNAME) 1495528160.06351 
+1.896           DB_UPTIME            MOOSDB_$(VNAME) 2.10545      
+1.896           DB_CLIENTS           MOOSDB_$(VNAME) uFldShoreBroker,pHostInfo,pShare,pMarineViewer,pLogger, 
+1.897           DB_VARSUMMARY        MOOSDB_$(VNAME) APPCAST              16:29:19.727         pHostInfo            1.0 Hz S  proc=pHostInfo!@#iter=...
+APPCAST_REQ          16:29:19.925         pMarineViewer        3.0 Hz S  node=all,app=all,durat...
+APPCAST_REQ_ALL      16:29:19.925         pMarineViewer        3.0 Hz S  node=all,app=all,durat...
+DB_CLIENTS           16:29:20.063         MOOSDB_$(VNAME)      0.0 Hz S  uFldShoreBroker,pHostI...
+DB_EVENT             16:29:18.686         MOOSDB_$(VNAME)      0.0 Hz S  connected=uFldShoreBroker
+DB_QOS               16:29:17.957         MOOSDB#1             0.0 Hz S                      
+DB_RWSUMMARY         16:29:17.957         MOOSDB#1             0.0 Hz S                      
+DB_TIME              16:29:20.063         MOOSDB_$(VNAME)      0.0 Hz D  1495528160.1         
+DB_UPTIME            16:29:20.063         MOOSDB_$(VNAME)      0.0 Hz D  2.1                  
+DB_VARSUMMARY        16:29:17.957         MOOSDB#1             0.0 Hz S                      
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     16:29:18.831         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_PING     07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_INFO        16:29:19.726         pHostInfo            0.0 Hz S  community=$(VNAME),hos...
+PHI_HOST_IP          16:29:19.726         pHostInfo            0.0 Hz S  localhost           
+PHI_HOST_PORT_DB     16:29:19.726         pHostInfo            0.0 Hz S  9000                
+PHOSTINFO_ITER_GAP   16:29:19.928         pHostInfo            0.0 Hz D  1.0                  
+PHOSTINFO_ITER_LEN   16:29:19.928         pHostInfo            0.0 Hz D  0.0                  
+PHOSTINFO_STATUS     16:29:19.298         pHostInfo            0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       16:29:19.036         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 16:29:19.920         pMarineViewer        2.0 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 16:29:19.920         pMarineViewer        2.0 Hz D  0.0                  
+PMARINEVIEWER_STATUS 16:29:19.158         pMarineViewer        0.0 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_STATUS        16:29:19.058         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+1.897           DB_QOS               MOOSDB_$(VNAME) pHostInfo=0:0.193834:0.109911:0,pLogger=0:0.462055:0.143051:0,pMarineViewer=0:0.313997:0.154972:0,pShare=0:0.272036:0.261784:0,uFldShoreBroker=0:0.267029:0.200987:0, 
+1.897           DB_RWSUMMARY         MOOSDB_$(VNAME) uFldShoreBroker=APPCAST_REQ:NODE_BROKER_PING:PHI_HOST_INFO&,pHostInfo=APPCAST_REQ:HOST_INFO_REQUEST:PSHARE_INPUT_SUMMARY&APPCAST:PHI_HOST_INFO:PHI_HOST_IP:PHI_HOST_PORT_DB:PHOSTINFO_ITER_GAP:PHOSTINFO_ITER_LEN:PHOSTINFO_STATUS,pShare=PSHARE_CMD&PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:GRID_CONFIG:GRID_DELTA:HOST_INFO_REQUEST:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NODE_BROKER_PING:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PLOGGER_CMD:PLOGGER_STATUS:PMV_CLEAR:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&LOGGER_DIRECTORY:PLOGGER_STATUS 
+1.916           PSHARE_INPUT_SUMMARY pShare           
+1.966           APPCAST              pHostInfo       proc=pHostInfo!@#iter=4!@#node=$(VNAME)!@#iter=4!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.003           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=5!@#node=$(VNAME)!@#iter=5!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       11!@Draw Count Rate:  9.18127!@Curr Time:        1495528159.92!@Time Warp:        1.000!@Elapsed:          0.00003!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.008           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.025           APPCAST              uFldShoreBroker proc=uFldShoreBroker!@#iter=1!@#node=$(VNAME)!@#iter=1!@#messages=!@ Total PHI_HOST_INFO    received: 1!@ Total NODE_BROKER_PING received: 0!@ Total NODE_BROKER_ACK    posted: 1!@ Total PSHARE_CMD         posted: 0!@!@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@     Community: $(VNAME)!@        HostIP: localhost!@   Port MOOSDB: 9000!@     Time Warp: 1!@       IRoutes: !@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@Node  IP               Elap  pShare              !@Name  Address  Status  Time  Input Route(s)  Skew!@----  -------  ------  ----  --------------  ----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+0.890           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=0.788976,cpuload=1.272,memory_kb=1156,memory_max_kb=1156,MOOSName=pShare,Publishing="",Subscribing="PSHARE_CMD," 
+0.990           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=0.967939,cpuload=26.26,memory_kb=6.28e+04,memory_max_kb=6.28e+04,MOOSName=pMarineViewer,Publishing="",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_INFO,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE," 
+0.990           HELM_MAP_CLEAR       pMarineViewer   0.00000      
+0.990           PMV_CONNECT          pMarineViewer   0.00000      
+1.131           PHOSTINFO_STATUS     pHostInfo       AppErrorFlag=false,Uptime=0.917871,cpuload=0.9233,memory_kb=1212,memory_max_kb=1212,MOOSName=pHostInfo,Publishing="",Subscribing="APPCAST_REQ,HOST_INFO_REQUEST,PSHARE_INPUT_SUMMARY," 
+1.559           PHI_HOST_PORT_DB     pHostInfo       9000 
+1.916           PSHARE_OUTPUT_SUMMARY pShare           
+2.002           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00068      
+2.002           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+2.008           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.024           UFLDSHOREBROKER_STATUS uFldShoreBroker AppErrorFlag=false,Uptime=1.71288,cpuload=0.08597,memory_kb=1300,memory_max_kb=1300,MOOSName=uFldShoreBroker,Publishing="",Subscribing="APPCAST_REQ,NODE_BROKER_PING,PHI_HOST_INFO," 
+2.024           UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00000      
+2.171           PHOSTINFO_ITER_GAP   pHostInfo       1.02894      
+2.171           PHOSTINFO_ITER_LEN   pHostInfo       0.00125      
+2.255           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01065      
+2.255           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00012      
+2.256           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+2.256           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+2.262           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.262           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.376           PHOSTINFO_ITER_GAP   pHostInfo       1.02142      
+2.376           PHOSTINFO_ITER_LEN   pHostInfo       0.00095      
+2.376           APPCAST              pHostInfo       proc=pHostInfo!@#iter=6!@#node=$(VNAME)!@#iter=6!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.507           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00826      
+2.507           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+2.507           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=7!@#node=$(VNAME)!@#iter=7!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       15!@Draw Count Rate:  8.80892!@Curr Time:        1495528160.42!@Time Warp:        1.000!@Elapsed:          0.00005!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.514           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.514           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.577           PHOSTINFO_ITER_GAP   pHostInfo       1.00775      
+2.577           PHOSTINFO_ITER_LEN   pHostInfo       0.00118      
+2.758           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00356      
+2.758           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00012      
+2.764           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.764           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME),thresh=any 
+2.781           PHOSTINFO_ITER_GAP   pHostInfo       1.01880      
+2.781           PHOSTINFO_ITER_LEN   pHostInfo       0.00048      
+2.781           APPCAST              pHostInfo       proc=pHostInfo!@#iter=8!@#node=$(VNAME)!@#iter=8!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.891           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=2.89066,cpuload=0.5153,memory_kb=1472,memory_max_kb=1472,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,HOST_INFO_REQUEST,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,NODE_BROKER_PING,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_INFO,PHI_HOST_IP,PHI_HOST_PORT_DB,PHOSTINFO_ITER_GAP,PHOSTINFO_ITER_LEN,PHOSTINFO_STATUS,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,TRAIL_RESET,UFLDSHOREBROKER_ITER_LEN,UFLDSHOREBROKER_STATUS,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,",LogAuxSrc=false 
+2.903           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=2.80178,cpuload=0.1865,memory_kb=1288,memory_max_kb=1288,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PSHARE_CMD," 
+2.933           PSHARE_OUTPUT_SUMMARY pShare           
+2.933           PSHARE_INPUT_SUMMARY pShare           
+2.984           PHOSTINFO_ITER_GAP   pHostInfo       1.01550      
+2.984           PHOSTINFO_ITER_LEN   pHostInfo       0.00086      
+3.010           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=2.98741,cpuload=9.924,memory_kb=9.616e+04,memory_max_kb=9.782e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_INFO,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE," 
+3.010           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00836      
+3.010           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00005      
+3.011           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=9!@#node=$(VNAME)!@#iter=9!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       19!@Draw Count Rate:  8.61365!@Curr Time:        1495528160.93!@Time Warp:        1.000!@Elapsed:          0.00004!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.017           APPCAST_REQ          pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+3.017           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+3.017           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+3.026           UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00002      
+3.026           APPCAST              uFldShoreBroker proc=uFldShoreBroker!@#iter=2!@#node=$(VNAME)!@#iter=2!@#messages=!@ Total PHI_HOST_INFO    received: 1!@ Total NODE_BROKER_PING received: 0!@ Total NODE_BROKER_ACK    posted: 2!@ Total PSHARE_CMD         posted: 0!@!@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@     Community: $(VNAME)!@        HostIP: localhost!@   Port MOOSDB: 9000!@     Time Warp: 1!@       IRoutes: !@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@Node  IP               Elap  pShare              !@Name  Address  Status  Time  Input Route(s)  Skew!@----  -------  ------  ----  --------------  ----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.187           PHOSTINFO_STATUS     pHostInfo       AppErrorFlag=false,Uptime=2.97385,cpuload=0.3665,memory_kb=1376,memory_max_kb=1376,MOOSName=pHostInfo,Publishing="APPCAST,PHI_HOST_INFO,PHI_HOST_IP,PHI_HOST_PORT_DB,PHOSTINFO_ITER_GAP,PHOSTINFO_ITER_LEN,PHOSTINFO_STATUS,",Subscribing="APPCAST_REQ,HOST_INFO_REQUEST,PSHARE_INPUT_SUMMARY," 
+3.187           PHOSTINFO_ITER_GAP   pHostInfo       1.01348      
+3.187           PHI_HOST_IP          pHostInfo       localhost 
+3.187           PHI_HOST_PORT_DB     pHostInfo       9000 
+3.187           PHI_HOST_INFO        pHostInfo       community=$(VNAME),hostip=localhost,port_db=9000,timewarp=1 
+3.187           PHOSTINFO_ITER_LEN   pHostInfo       0.00160      
+3.187           APPCAST              pHostInfo       proc=pHostInfo!@#iter=10!@#node=$(VNAME)!@#iter=10!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.261           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00430      
+3.261           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+3.017           APPCAST_REQ_$(VNAME) pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+3.026           UFLDSHOREBROKER_ITER_GAP uFldShoreBroker 1.00157      
+3.393           PHOSTINFO_ITER_GAP   pHostInfo       1.03007      
+3.393           PHOSTINFO_ITER_LEN   pHostInfo       0.00124      
+3.515           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01555      
+3.515           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00019      
+3.516           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=11!@#node=$(VNAME)!@#iter=11!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       23!@Draw Count Rate:  8.48469!@Curr Time:        1495528161.43!@Time Warp:        1.000!@Elapsed:          0.00007!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.596           PHOSTINFO_ITER_GAP   pHostInfo       1.01898      
+3.597           PHOSTINFO_ITER_LEN   pHostInfo       0.00227      
+3.597           APPCAST              pHostInfo       proc=pHostInfo!@#iter=12!@#node=$(VNAME)!@#iter=12!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.767           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00658      
+3.767           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00013      
+3.799           PHOSTINFO_ITER_GAP   pHostInfo       1.01414      
+3.799           PHOSTINFO_ITER_LEN   pHostInfo       0.00085      
+3.939           PSHARE_OUTPUT_SUMMARY pShare           
+3.939           PSHARE_INPUT_SUMMARY pShare           
+3.939           DB_TIME              MOOSDB_$(VNAME) 1495528162.10651 
+3.939           DB_UPTIME            MOOSDB_$(VNAME) 4.14844      
+3.939           DB_CLIENTS           MOOSDB_$(VNAME) uFldShoreBroker,pHostInfo,pShare,pMarineViewer,pLogger, 
+3.939           DB_VARSUMMARY        MOOSDB_$(VNAME) APPCAST              16:29:21.765         pHostInfo            5.3 Hz S  proc=pHostInfo!@#iter=...
+APPCAST_REQ          16:29:21.184         pMarineViewer        4.6 Hz S  node=all,app=all,durat...
+APPCAST_REQ_$(VNAME) 16:29:21.184         pMarineViewer        0.0 Hz S  node=$(VNAME),app=pMar...
+APPCAST_REQ_ALL      16:29:21.184         pMarineViewer        4.6 Hz S  node=all,app=all,durat...
+DB_CLIENTS           16:29:22.106         MOOSDB_$(VNAME)      0.2 Hz S  uFldShoreBroker,pHostI...
+DB_EVENT             16:29:18.686         MOOSDB_$(VNAME)      0.0 Hz S  connected=uFldShoreBroker
+DB_QOS               16:29:20.064         MOOSDB_$(VNAME)      0.0 Hz S  pHostInfo=0:0.193834:0...
+DB_RWSUMMARY         16:29:20.064         MOOSDB_$(VNAME)      0.0 Hz S  uFldShoreBroker=APPCAS...
+DB_TIME              16:29:22.106         MOOSDB_$(VNAME)      0.2 Hz D  1495528162.1         
+DB_UPTIME            16:29:22.106         MOOSDB_$(VNAME)      0.2 Hz D  4.1                  
+DB_VARSUMMARY        16:29:20.064         MOOSDB_$(VNAME)      0.0 Hz S  APPCAST              1...
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     16:29:18.831         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_PING     07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_INFO        16:29:21.354         pHostInfo            0.3 Hz S  community=$(VNAME),hos...
+PHI_HOST_IP          16:29:21.354         pHostInfo            0.3 Hz S  localhost           
+PHI_HOST_PORT_DB     16:29:21.354         pHostInfo            0.3 Hz S  9000                
+PHOSTINFO_ITER_GAP   16:29:21.967         pHostInfo            4.3 Hz D  1.0                  
+PHOSTINFO_ITER_LEN   16:29:21.967         pHostInfo            4.5 Hz D  0.0                  
+PHOSTINFO_STATUS     16:29:21.354         pHostInfo            0.2 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       16:29:21.058         pLogger              0.2 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 16:29:21.934         pMarineViewer        3.8 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 16:29:21.934         pMarineViewer        3.8 Hz D  0.0                  
+PMARINEVIEWER_STATUS 16:29:21.178         pMarineViewer        0.2 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 16:29:22.106         pShare               0.7 Hz S                      
+PSHARE_OUTPUT_SUMMARY 16:29:22.106         pShare               0.7 Hz S                      
+PSHARE_STATUS        16:29:21.070         pShare               0.2 Hz S  AppErrorFlag=false,Upt...
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   UFLDSHOREBROKER_ITER_GAP 16:29:21.193         uFldShoreBroker      0.0 Hz D  1.0                  
+UFLDSHOREBROKER_ITER_LEN 16:29:21.193         uFldShoreBroker      0.5 Hz D  0.0                  
+UFLDSHOREBROKER_STATUS 16:29:20.192         uFldShoreBroker      0.0 Hz S  AppErrorFlag=false,Upt...
+VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+3.939           DB_QOS               MOOSDB_$(VNAME) pHostInfo=0:0.391006:0.109911:0,pLogger=0:0.462055:0.143051:0,pMarineViewer=0:0.367165:0.154972:0,pShare=0:0.272036:0.188828:0,uFldShoreBroker=0:0.292063:0.185013:0, 
+3.939           DB_RWSUMMARY         MOOSDB_$(VNAME) uFldShoreBroker=APPCAST_REQ:NODE_BROKER_PING:PHI_HOST_INFO&APPCAST:UFLDSHOREBROKER_ITER_GAP:UFLDSHOREBROKER_ITER_LEN:UFLDSHOREBROKER_STATUS,pHostInfo=APPCAST_REQ:HOST_INFO_REQUEST:PSHARE_INPUT_SUMMARY&APPCAST:PHI_HOST_INFO:PHI_HOST_IP:PHI_HOST_PORT_DB:PHOSTINFO_ITER_GAP:PHOSTINFO_ITER_LEN:PHOSTINFO_STATUS,pShare=PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&APPCAST:APPCAST_REQ:APPCAST_REQ_$(VNAME):APPCAST_REQ_ALL:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_$(VNAME):APPCAST_REQ_ALL:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:HOST_INFO_REQUEST:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NODE_BROKER_PING:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PHI_HOST_PORT_DB:PHOSTINFO_ITER_GAP:PHOSTINFO_ITER_LEN:PHOSTINFO_STATUS:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:TRAIL_RESET:UFLDSHOREBROKER_ITER_GAP:UFLDSHOREBROKER_ITER_LEN:UFLDSHOREBROKER_STATUS:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&LOGGER_DIRECTORY:PLOGGER_STATUS 
+4.002           PHOSTINFO_ITER_GAP   pHostInfo       1.01364      
+4.002           PHOSTINFO_ITER_LEN   pHostInfo       0.00099      
+4.003           APPCAST              pHostInfo       proc=pHostInfo!@#iter=14!@#node=$(VNAME)!@#iter=14!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.021           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01908      
+4.021           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+4.022           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=13!@#node=$(VNAME)!@#iter=13!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       27!@Draw Count Rate:  8.39245!@Curr Time:        1495528161.93!@Time Warp:        1.000!@Elapsed:          0.00005!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.026           UFLDSHOREBROKER_STATUS uFldShoreBroker AppErrorFlag=false,Uptime=3.71487,cpuload=0.09804,memory_kb=1384,memory_max_kb=1384,MOOSName=uFldShoreBroker,Publishing="APPCAST,UFLDSHOREBROKER_ITER_GAP,UFLDSHOREBROKER_ITER_LEN,UFLDSHOREBROKER_STATUS,",Subscribing="APPCAST_REQ,NODE_BROKER_PING,PHI_HOST_INFO," 
+4.027           UFLDSHOREBROKER_ITER_GAP uFldShoreBroker 1.00050      
+4.027           UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00001      
+4.027           APPCAST_REQ          pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+4.027           APPCAST_REQ_$(VNAME) pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+4.027           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+4.027           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+4.027           APPCAST              uFldShoreBroker proc=uFldShoreBroker!@#iter=3!@#node=$(VNAME)!@#iter=3!@#messages=!@ Total PHI_HOST_INFO    received: 2!@ Total NODE_BROKER_PING received: 0!@ Total NODE_BROKER_ACK    posted: 3!@ Total PSHARE_CMD         posted: 0!@!@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@     Community: $(VNAME)!@        HostIP: localhost!@   Port MOOSDB: 9000!@     Time Warp: 1!@       IRoutes: !@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@Node  IP               Elap  pShare              !@Name  Address  Status  Time  Input Route(s)  Skew!@----  -------  ------  ----  --------------  ----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.204           PHOSTINFO_ITER_GAP   pHostInfo       1.01182      
+4.205           PHOSTINFO_ITER_LEN   pHostInfo       0.00095      
+4.277           PMARINEVIEWER_ITER_GAP pMarineViewer   1.02268      
+4.277           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+4.406           PHOSTINFO_ITER_GAP   pHostInfo       1.00863      
+4.406           PHOSTINFO_ITER_LEN   pHostInfo       0.00102      
+4.407           APPCAST              pHostInfo       proc=pHostInfo!@#iter=16!@#node=$(VNAME)!@#iter=16!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.528           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00234      
+4.528           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00010      
+4.528           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=15!@#node=$(VNAME)!@#iter=15!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       31!@Draw Count Rate:  8.32565!@Curr Time:        1495528162.44!@Time Warp:        1.000!@Elapsed:          0.00004!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.609           PHOSTINFO_ITER_GAP   pHostInfo       1.01218      
+4.609           PHOSTINFO_ITER_LEN   pHostInfo       0.00110      
+4.781           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01304      
+4.781           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00028      
+4.809           PHOSTINFO_ITER_GAP   pHostInfo       1.00417      
+4.810           PHOSTINFO_ITER_LEN   pHostInfo       0.00108      
+4.810           APPCAST              pHostInfo       proc=pHostInfo!@#iter=18!@#node=$(VNAME)!@#iter=18!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.921           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=4.82,cpuload=0.218,memory_kb=1288,memory_max_kb=1288,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PSHARE_CMD," 
+4.925           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=4.9253,cpuload=0.441,memory_kb=1556,memory_max_kb=1556,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,APPCAST_REQ_$(VNAME),APPCAST_REQ_ALL,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,GRID_CONFIG,GRID_DELTA,HELM_MAP_CLEAR,HOST_INFO_REQUEST,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,NODE_BROKER_PING,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_INFO,PHI_HOST_IP,PHI_HOST_PORT_DB,PHOSTINFO_ITER_GAP,PHOSTINFO_ITER_LEN,PHOSTINFO_STATUS,PLOGGER_CMD,PLOGGER_STATUS,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CLEAR,PMV_CONNECT,PMV_MENU_CONTEXT,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,TRAIL_RESET,UFLDSHOREBROKER_ITER_GAP,UFLDSHOREBROKER_ITER_LEN,UFLDSHOREBROKER_STATUS,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE,",LogAuxSrc=false 
+4.946           PSHARE_OUTPUT_SUMMARY pShare           
+4.946           PSHARE_INPUT_SUMMARY pShare           
+5.011           PHOSTINFO_ITER_GAP   pHostInfo       1.00978      
+5.012           PHOSTINFO_ITER_LEN   pHostInfo       0.00130      
+5.028           UFLDSHOREBROKER_ITER_GAP uFldShoreBroker 1.00164      
+5.028           UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00001      
+5.029           APPCAST              uFldShoreBroker proc=uFldShoreBroker!@#iter=4!@#node=$(VNAME)!@#iter=4!@#messages=!@ Total PHI_HOST_INFO    received: 2!@ Total NODE_BROKER_PING received: 0!@ Total NODE_BROKER_ACK    posted: 4!@ Total PSHARE_CMD         posted: 0!@!@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@     Community: $(VNAME)!@        HostIP: localhost!@   Port MOOSDB: 9000!@     Time Warp: 1!@       IRoutes: !@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@Node  IP               Elap  pShare              !@Name  Address  Status  Time  Input Route(s)  Skew!@----  -------  ------  ----  --------------  ----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.035           PMARINEVIEWER_STATUS pMarineViewer   AppErrorFlag=false,Uptime=5.01219,cpuload=9.467,memory_kb=9.648e+04,memory_max_kb=9.782e+04,MOOSName=pMarineViewer,Publishing="APPCAST,APPCAST_REQ,APPCAST_REQ_$(VNAME),APPCAST_REQ_ALL,HELM_MAP_CLEAR,PMARINEVIEWER_ITER_GAP,PMARINEVIEWER_ITER_LEN,PMARINEVIEWER_STATUS,PMV_CONNECT,",Subscribing="APPCAST,APPCAST_REQ,GRID_CONFIG,GRID_DELTA,NODE_REPORT,NODE_REPORT_LOCAL,PHI_HOST_INFO,PHI_HOST_IP,PMV_CLEAR,PMV_MENU_CONTEXT,TRAIL_RESET,VIEW_CIRCLE,VIEW_COMMS_PULSE,VIEW_GRID,VIEW_MARKER,VIEW_POINT,VIEW_POLYGON,VIEW_RANGE_PULSE,VIEW_SEGLIST,VIEW_SEGLR,VIEW_VECTOR,VIEW_WEDGE," 
+5.035           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01550      
+5.035           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00005      
+5.035           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=17!@#node=$(VNAME)!@#iter=17!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       35!@Draw Count Rate:  8.27312!@Curr Time:        1495528162.95!@Time Warp:        1.000!@Elapsed:          0.00020!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.042           APPCAST_REQ          pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+5.042           APPCAST_REQ_$(VNAME) pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+5.042           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+5.042           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+5.214           PHOSTINFO_STATUS     pHostInfo       AppErrorFlag=false,Uptime=5.00138,cpuload=0.3086,memory_kb=1440,memory_max_kb=1440,MOOSName=pHostInfo,Publishing="APPCAST,PHI_HOST_INFO,PHI_HOST_IP,PHI_HOST_PORT_DB,PHOSTINFO_ITER_GAP,PHOSTINFO_ITER_LEN,PHOSTINFO_STATUS,",Subscribing="APPCAST_REQ,HOST_INFO_REQUEST,PSHARE_INPUT_SUMMARY," 
+5.214           PHOSTINFO_ITER_GAP   pHostInfo       1.01446      
+5.214           PHI_HOST_IP          pHostInfo       localhost 
+5.214           PHI_HOST_PORT_DB     pHostInfo       9000 
+5.214           PHI_HOST_INFO        pHostInfo       community=$(VNAME),hostip=localhost,port_db=9000,timewarp=1 
+5.214           PHOSTINFO_ITER_LEN   pHostInfo       0.00103      
+5.215           APPCAST              pHostInfo       proc=pHostInfo!@#iter=20!@#node=$(VNAME)!@#iter=20!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.290           PMARINEVIEWER_ITER_GAP pMarineViewer   1.02134      
+5.290           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00009      
+5.417           PHOSTINFO_ITER_GAP   pHostInfo       1.01196      
+5.417           PHOSTINFO_ITER_LEN   pHostInfo       0.00110      
+5.541           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00444      
+5.541           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00017      
+5.542           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=19!@#node=$(VNAME)!@#iter=19!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       40!@Draw Count Rate:  8.44414!@Curr Time:        1495528163.46!@Time Warp:        1.000!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.621           PHOSTINFO_ITER_GAP   pHostInfo       1.02373      
+5.622           PHOSTINFO_ITER_LEN   pHostInfo       0.00101      
+5.622           APPCAST              pHostInfo       proc=pHostInfo!@#iter=22!@#node=$(VNAME)!@#iter=22!@#messages=!@  PHI_HOST_IP:         [7;32mDEFAULT HOSTIP USED[0m!@  PHI_HOST_IP_ALL:     !@  PHI_HOST_IP_VERBOSE: !@  PHI_HOST_PORT:       9000!@  PHI_PSHARES_IROUTES: !@  PHI_HOST_INFO:       community=$(VNAME),hostip=localhost,!@                       port_db=9000,timewarp=1!@!@#config_warnings=No mission config block found for pHostInfo!@No config block found for pHostInfo!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.796           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01983      
+5.796           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00010      
+5.822           PHOSTINFO_ITER_GAP   pHostInfo       1.00350      
+5.822           PHOSTINFO_ITER_LEN   pHostInfo       0.00100      
+5.952           DB_TIME              MOOSDB_$(VNAME) 1495528164.11917 
+5.952           DB_UPTIME            MOOSDB_$(VNAME) 6.16110      
+5.952           DB_CLIENTS           MOOSDB_$(VNAME) uFldShoreBroker,pHostInfo,pShare,pMarineViewer,pLogger, 
+5.952           DB_VARSUMMARY        MOOSDB_$(VNAME) APPCAST              16:29:23.789         pHostInfo            5.4 Hz S  proc=pHostInfo!@#iter=...
+APPCAST_REQ          16:29:23.209         pMarineViewer        2.6 Hz S  node=all,app=all,durat...
+APPCAST_REQ_$(VNAME) 16:29:23.209         pMarineViewer        0.7 Hz S  node=$(VNAME),app=pMar...
+APPCAST_REQ_ALL      16:29:23.209         pMarineViewer        1.9 Hz S  node=all,app=all,durat...
+DB_CLIENTS           16:29:24.119         MOOSDB_$(VNAME)      0.4 Hz S  uFldShoreBroker,pHostI...
+DB_EVENT             16:29:18.686         MOOSDB_$(VNAME)      0.0 Hz S  connected=uFldShoreBroker
+DB_QOS               16:29:22.106         MOOSDB_$(VNAME)      0.2 Hz S  pHostInfo=0:0.391006:0...
+DB_RWSUMMARY         16:29:22.107         MOOSDB_$(VNAME)      0.2 Hz S  uFldShoreBroker=APPCAS...
+DB_TIME              16:29:24.119         MOOSDB_$(VNAME)      0.4 Hz D  1495528164.1         
+DB_UPTIME            16:29:24.119         MOOSDB_$(VNAME)      0.4 Hz D  6.2                  
+DB_VARSUMMARY        16:29:22.106         MOOSDB_$(VNAME)      0.2 Hz S  APPCAST              1...
+GRID_CONFIG          07:59:59.000         (write pending)      0.0 Hz ~  
+                   GRID_DELTA           07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     16:29:18.831         pLogger              0.0 Hz S  ./MOOSLog_23_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_PING     07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHI_HOST_INFO        16:29:23.382         pHostInfo            0.4 Hz S  community=$(VNAME),hos...
+PHI_HOST_IP          16:29:23.382         pHostInfo            0.4 Hz S  localhost           
+PHI_HOST_PORT_DB     16:29:23.382         pHostInfo            0.4 Hz S  9000                
+PHOSTINFO_ITER_GAP   16:29:23.989         pHostInfo            4.9 Hz D  1.0                  
+PHOSTINFO_ITER_LEN   16:29:23.990         pHostInfo            4.9 Hz D  0.0                  
+PHOSTINFO_STATUS     16:29:23.382         pHostInfo            0.4 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       16:29:23.093         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PMARINEVIEWER_ITER_GAP 16:29:23.963         pMarineViewer        3.9 Hz D  1.0                  
+PMARINEVIEWER_ITER_LEN 16:29:23.963         pMarineViewer        3.9 Hz D  0.0                  
+PMARINEVIEWER_STATUS 16:29:23.202         pMarineViewer        0.4 Hz S  AppErrorFlag=false,Upt...
+PMV_CLEAR            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PMV_CONNECT          16:29:19.158         pMarineViewer        0.0 Hz D  0.0                  
+PMV_MENU_CONTEXT     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_CMD           07:59:59.000         (write pending)      0.0 Hz ~  
+                   PSHARE_INPUT_SUMMARY 16:29:23.114         pShare               0.9 Hz S                      
+PSHARE_OUTPUT_SUMMARY 16:29:23.114         pShare               0.9 Hz S                      
+PSHARE_STATUS        16:29:23.089         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+TRAIL_RESET          07:59:59.000         (write pending)      0.0 Hz ~  
+                   UFLDSHOREBROKER_ITER_GAP 16:29:23.196         uFldShoreBroker      0.7 Hz D  1.0                  
+UFLDSHOREBROKER_ITER_LEN 16:29:23.196         uFldShoreBroker      0.9 Hz D  0.0                  
+UFLDSHOREBROKER_STATUS 16:29:22.194         uFldShoreBroker      0.2 Hz S  AppErrorFlag=false,Upt...
+VIEW_CIRCLE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_COMMS_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_GRID            07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_MARKER          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POINT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_POLYGON         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_RANGE_PULSE     07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLIST         07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_SEGLR           07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_VECTOR          07:59:59.000         (write pending)      0.0 Hz ~  
+                   VIEW_WEDGE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+5.952           DB_QOS               MOOSDB_$(VNAME) pHostInfo=0.222921:0.391006:0.109911:0.23613,pLogger=0.216961:0.462055:0.143051:0.244999,pMarineViewer=0.244141:0.367165:0.154972:0.266647,pShare=0.221968:0.272036:0.188828:0.226927,uFldShoreBroker=0.19598:0.292063:0.185013:0.228214, 
+5.952           DB_RWSUMMARY         MOOSDB_$(VNAME) uFldShoreBroker=APPCAST_REQ:NODE_BROKER_PING:PHI_HOST_INFO&APPCAST:UFLDSHOREBROKER_ITER_GAP:UFLDSHOREBROKER_ITER_LEN:UFLDSHOREBROKER_STATUS,pHostInfo=APPCAST_REQ:HOST_INFO_REQUEST:PSHARE_INPUT_SUMMARY&APPCAST:PHI_HOST_INFO:PHI_HOST_IP:PHI_HOST_PORT_DB:PHOSTINFO_ITER_GAP:PHOSTINFO_ITER_LEN:PHOSTINFO_STATUS,pShare=PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,pMarineViewer=APPCAST:APPCAST_REQ:GRID_CONFIG:GRID_DELTA:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PMV_CLEAR:PMV_MENU_CONTEXT:TRAIL_RESET:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&APPCAST:APPCAST_REQ:APPCAST_REQ_$(VNAME):APPCAST_REQ_ALL:HELM_MAP_CLEAR:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CONNECT,pLogger=APPCAST:APPCAST_REQ:APPCAST_REQ_$(VNAME):APPCAST_REQ_ALL:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:GRID_CONFIG:GRID_DELTA:HELM_MAP_CLEAR:HOST_INFO_REQUEST:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NODE_BROKER_PING:NODE_REPORT:NODE_REPORT_LOCAL:PHI_HOST_INFO:PHI_HOST_IP:PHI_HOST_PORT_DB:PHOSTINFO_ITER_GAP:PHOSTINFO_ITER_LEN:PHOSTINFO_STATUS:PLOGGER_CMD:PLOGGER_STATUS:PMARINEVIEWER_ITER_GAP:PMARINEVIEWER_ITER_LEN:PMARINEVIEWER_STATUS:PMV_CLEAR:PMV_CONNECT:PMV_MENU_CONTEXT:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:TRAIL_RESET:UFLDSHOREBROKER_ITER_GAP:UFLDSHOREBROKER_ITER_LEN:UFLDSHOREBROKER_STATUS:VIEW_CIRCLE:VIEW_COMMS_PULSE:VIEW_GRID:VIEW_MARKER:VIEW_POINT:VIEW_POLYGON:VIEW_RANGE_PULSE:VIEW_SEGLIST:VIEW_SEGLR:VIEW_VECTOR:VIEW_WEDGE&LOGGER_DIRECTORY:PLOGGER_STATUS 
+5.962           PSHARE_OUTPUT_SUMMARY pShare           
+5.962           PSHARE_INPUT_SUMMARY pShare           
+6.023           PHOSTINFO_ITER_GAP   pHostInfo       1.00322      
+6.023           PHOSTINFO_ITER_LEN   pHostInfo       0.00073      
+6.030           UFLDSHOREBROKER_STATUS uFldShoreBroker AppErrorFlag=false,Uptime=5.71805,cpuload=0.06112,memory_kb=1420,memory_max_kb=1420,MOOSName=uFldShoreBroker,Publishing="APPCAST,UFLDSHOREBROKER_ITER_GAP,UFLDSHOREBROKER_ITER_LEN,UFLDSHOREBROKER_STATUS,",Subscribing="APPCAST_REQ,NODE_BROKER_PING,PHI_HOST_INFO," 
+6.030           UFLDSHOREBROKER_ITER_GAP uFldShoreBroker 1.00148      
+6.030           UFLDSHOREBROKER_ITER_LEN uFldShoreBroker 0.00001      
+6.051           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01954      
+6.051           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00018      
+6.052           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=21!@#node=$(VNAME)!@#iter=21!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       44!@Draw Count Rate:  8.38597!@Curr Time:        1495528163.96!@Time Warp:        1.000!@Elapsed:          0.00006!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.058           APPCAST_REQ          pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+6.058           APPCAST_REQ_$(VNAME) pMarineViewer   node=$(VNAME),app=pMarineViewer,duration=3.0,key=pMarineViewer:$(VNAME)app,thresh=any 
+6.058           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+6.058           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:$(VNAME)gen,thresh=run_warning 
+6.224           PHOSTINFO_ITER_GAP   pHostInfo       1.00557      
+6.224           PHOSTINFO_ITER_LEN   pHostInfo       0.00111      
+6.302           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00302      
+6.302           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00009      
+6.429           PHOSTINFO_ITER_GAP   pHostInfo       1.02581      
+6.429           PHOSTINFO_ITER_LEN   pHostInfo       0.00087      
+6.555           PMARINEVIEWER_ITER_GAP pMarineViewer   1.01246      
+6.555           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00007      
+6.555           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=23!@#node=$(VNAME)!@#iter=23!@#messages=Tiff File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /Users/shannon/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       48!@Draw Count Rate:  8.34677!@Curr Time:        1495528164.47!@Time Warp:        1.000!@Elapsed:          0.00004!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#config_warnings=Lat or Lon Origin not set in *.moos file!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.633           PHOSTINFO_ITER_GAP   pHostInfo       1.01909      
+6.633           PHOSTINFO_ITER_LEN   pHostInfo       0.00099      

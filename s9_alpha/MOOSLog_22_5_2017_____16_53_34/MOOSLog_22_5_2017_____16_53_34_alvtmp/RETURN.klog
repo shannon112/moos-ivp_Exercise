@@ -1,0 +1,4 @@
+6.776           RETURN               pHelmIvP:HELM_VAR_INIT false 
+38.109          RETURN               pMarineViewer   false 
+262.921         RETURN               pMarineViewer   true 
+316.017         RETURN               pHelmIvP:1019:waypt_return false 

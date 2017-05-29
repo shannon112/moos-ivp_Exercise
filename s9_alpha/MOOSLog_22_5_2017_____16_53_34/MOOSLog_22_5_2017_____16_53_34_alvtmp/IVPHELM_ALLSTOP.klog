@@ -1,0 +1,4 @@
+7.068           IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+38.197          IVPHELM_ALLSTOP      pHelmIvP        clear 
+316.019         IVPHELM_ALLSTOP      pHelmIvP        MissingDecVars:speed,course 
+316.294         IVPHELM_ALLSTOP      pHelmIvP        NothingToDo 
