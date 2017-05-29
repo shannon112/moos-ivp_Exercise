@@ -1,0 +1,275 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./LOG_UAL_24_5_2017_____15_18_07/LOG_UAL_24_5_2017_____15_18_07.alog
+%% FILE OPENED ON  Thu Jan  1 08:00:00 1970
+%% LOGSTART               1495610287.05
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.826           MOOS_DEBUG           pMarinePID      ** NEW CONTROLLER GAINS ARE ** 
+0.826           MOOS_DEBUG           pMarinePID      YAW_PID_KP             = 0.700 
+0.826           MOOS_DEBUG           pMarinePID      YAW_PID_KD             = 0.100 
+0.826           MOOS_DEBUG           pMarinePID      YAW_PID_KI             = 0.000 
+0.826           MOOS_DEBUG           pMarinePID      YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.826           MOOS_DEBUG           pMarinePID      MAXRUDDER              = 100.000 
+0.827           MOOS_DEBUG           pMarinePID      SPEED_PID_KP           = 1.000 
+0.827           MOOS_DEBUG           pMarinePID      SPEED_PID_KD           = 0.000 
+0.827           MOOS_DEBUG           pMarinePID      SPEED_PID_KI           = 0.000 
+0.827           MOOS_DEBUG           pMarinePID      SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.827           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 100.000 
+0.427           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.461           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+0.461           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+0.507           UMAC_8667_STATUS     uMAC_8667       AppErrorFlag=false,Uptime=0.813157,cpuload=2.045,memory_kb=1180,memory_max_kb=1180,MOOSName=uMAC_8667,Publishing="APPCAST_REQ,APPCAST_REQ_ALL,",Subscribing="APPCAST," 
+0.507           APPCAST_REQ          uMAC_8667       node=all,app=all,duration=3.0,key=uMAC_8667:app,thresh=run_warning 
+0.507           APPCAST_REQ_ALL      uMAC_8667       node=all,app=all,duration=3.0,key=uMAC_8667:app,thresh=run_warning 
+0.581           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=0.682587,cpuload=1.076,memory_kb=1196,memory_max_kb=1196,MOOSName=pShare,Publishing="",Subscribing="PSHARE_CMD," 
+0.664           LOGGER_DIRECTORY     pLogger         ./LOG_UAL_24_5_2017_____15_18_07 
+0.838           DB_EVENT             MOOSDB_ual      connected=pDeadManPost 
+0.866           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.866278,cpuload=1.383,memory_kb=1212,memory_max_kb=1212,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=true 
+0.932           PMARINEPID_STATUS    pMarinePID      AppErrorFlag=false,Uptime=0.716141,cpuload=1.429,memory_kb=1168,memory_max_kb=1168,MOOSName=pMarinePID,Publishing="MOOS_DEBUG,",Subscribing="DESIRED_DEPTH,DESIRED_HEADING,DESIRED_SPEED,MOOS_MANUAL_OVERIDE,MOOS_MANUAL_OVERRIDE,NAV_DEPTH,NAV_HEADING,NAV_PITCH,NAV_SPEED,NAV_YAW,PID_VERBOSE,SPEED_FACTOR," 
+0.932           MOOS_DEBUG           pMarinePID      Paused Due To Tardy HELM Input: THRUST=0 
+0.984           IVPHELM_REGISTER     pHelmIvP        IVPHELM_STATE 
+0.984           IVPHELM_REGISTER     pHelmIvP        DB_CLIENTS 
+0.984           IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERIDE 
+0.984           IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERRIDE 
+0.984           IVPHELM_REGISTER     pHelmIvP        RESTART_HELM 
+0.984           IVPHELM_REGISTER     pHelmIvP        IVPHELM_REJOURNAL 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_HEADING 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_DEPTH 
+0.984           IVPHELM_REGISTER     pHelmIvP        HELM_MAP_CLEAR 
+0.984           IVPHELM_REGISTER     pHelmIvP        AIS_REPORT 
+0.984           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT 
+0.984           IVPHELM_REGISTER     pHelmIvP        AIS_REPORT_LOCAL 
+0.984           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.984           IVPHELM_REGISTER     pHelmIvP        MODE 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_X 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_Y 
+0.984           IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+0.984           IVPHELM_REGISTER     pHelmIvP        WPT_UPDATE 
+0.984           IVPHELM_REGISTER     pHelmIvP        RETURN_UPDATES 
+0.984           IVPHELM_REGISTER     pHelmIvP        DEPLOY 
+0.984           IVPHELM_REGISTER     pHelmIvP        RETURN 
+0.984           IVPHELM_REGISTER     pHelmIvP        SURVEY 
+0.984           IVPHELM_REGISTER     pHelmIvP        WPT_UPDATE 
+0.984           PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = targ_ual.bhv 
+1.048           DB_EVENT             MOOSDB_ual      connected=uFldMessageHandler 
+1.115           APPCAST_REQ          uMAC_8667       node=all,app=all,duration=3.0,key=uMAC_8667:app,thresh=run_warning 
+1.115           APPCAST_REQ_ALL      uMAC_8667       node=all,app=all,duration=3.0,key=uMAC_8667:app,thresh=run_warning 
+1.240           PHELMIVP_STATUS      pHelmIvP        AppErrorFlag=false,Uptime=0.920563,cpuload=1.251,memory_kb=1216,memory_max_kb=1216,MOOSName=pHelmIvP,Publishing="AVOID,DEPLOY,IVPHELM_DOMAIN,IVPHELM_MODESET,IVPHELM_REGISTER,PLOGGER_CMD,RETURN,SURVEY,",Subscribing="AIS_REPORT,AIS_REPORT_LOCAL,APPCAST_REQ,DB_CLIENTS,DEPLOY,HELM_MAP_CLEAR,IVPHELM_REJOURNAL,IVPHELM_STATE,MODE,MOOS_MANUAL_OVERIDE,MOOS_MANUAL_OVERRIDE,NAV_DEPTH,NAV_HEADING,NAV_SPEED,NAV_X,NAV_Y,NODE_REPORT,NODE_REPORT_LOCAL,RESTART_HELM,RETURN,RETURN_UPDATES,SURVEY,WPT_UPDATE," 
+1.240           IVPHELM_STATE        pHelmIvP        PARK 
+1.240           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.240           IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.240           DESIRED_SPEED        pHelmIvP        0.00000      
+1.240           DESIRED_HEADING      pHelmIvP        0.00000      
+1.240           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=1!@#node=ual!@#iter=1!@#messages=  Helm Iteration: 0!@  IvP Functions:  0!@  Mode(s):        !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.276           PNODEREPORTER_STATUS pNodeReporter   AppErrorFlag=false,Uptime=1.16394,cpuload=0.5286,memory_kb=1376,memory_max_kb=1376,MOOSName=pNodeReporter,Publishing="",Subscribing="APPCAST_REQ,AUX_MODE,IVPHELM_ALLSTOP,IVPHELM_STATE,IVPHELM_SUMMARY,LOAD_WARNING,NAV_DEPTH,NAV_HEADING,NAV_LAT,NAV_LONG,NAV_SPEED,NAV_TRAJECTORY,NAV_X,NAV_Y,NAV_YAW,PNR_PAUSE,THRUST_MODE_REVERSE," 
+1.276           NODE_REPORT_LOCAL    pNodeReporter   NAME=ual,TYPE=KAYAK,MODE=PARK,ALLSTOP=ManualOverride,TIME=1495610288.33,LENGTH=4 
+1.277           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=1!@#node=ual!@#iter=1!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: ual!@     Vehicle type: KAYAK!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: !@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 1!@ Latest Report: NAME=ual,TYPE=KAYAK,MODE=PARK,!@                ALLSTOP=ManualOverride,TIME=1495610288.33,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.284           PSHARE_CMD           uFldNodeBroker  cmd=output,src_name=NODE_BROKER_PING_0,dest_name=NODE_BROKER_PING,route=192.168.1.114:9300 
+1.284           PSHARE_CMD           uFldNodeBroker  cmd=output,src_name=NODE_BROKER_PING_1,dest_name=NODE_BROKER_PING,route=localhost:9300 
+1.316           APPCAST_REQ          uMAC_8667       node=ual,app=all,duration=0.1,key=uMAC_8667startup,thresh=any 
+1.464           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=1!@#node=ual!@#iter=1!@#messages=Summary: !@!@Antler List: iM200,pBasicContactMgr,pDeadManPost,pHelmIvP!@             pHostInfo,pLogger,pMarinePID,pNodeReporter,pShare!@             uFldMessageHandler,uFldNodeBroker!@!@                                             Current    Max     !@ProcName             Watch Reason   Status   CPU Load   CPU Load!@------------------   ------------   ------   --------   --------!@iM200                ANT            [7;32mOK[0m       0.00       0.00    !@pBasicContactMgr     ANT            [7;32mOK[0m       0.00       0.00    !@pDeadManPost         ANT            [7;32mOK[0m       0.00       0.00    !@pHelmIvP             ANT WATCH      [7;32mOK[0m       1.25       1.25    !@pHostInfo            ANT            [7;32mOK[0m       0.00       0.00    !@pLogger              ANT            [7;32mOK[0m       1.38       1.38    !@pMarinePID           ANT WATCH      [7;32mOK[0m       1.43       1.43    !@pNodeReporter        ANT WATCH      [7;32mOK[0m       0.53       0.53    !@pShare               ANT WATCH      [7;32mOK[0m       1.08       1.08    !@uFldMessageHandler   ANT            [7;32mOK[0m       0.00       0.00    !@uFldNodeBroker       ANT            [7;32mOK[0m       0.00       0.00    !@uSimMarine               WATCH      [7;32mOK[0m       0.00       0.00    !@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [uSimMarine]!@[0.00]: Noted to be present: [uFldMessageHandler]!@[0.00]: Noted to be present: [iM200]!@[0.00]: Noted to be present: [pDeadManPost]!@[0.00]: Noted to be present: [uFldNodeBroker]!@[0.00]: Noted to be present: [pBasicContactMgr]!@[0.00]: Noted to be present: [pHostInfo]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+1.467           DB_EVENT             MOOSDB_ual      disconnected=uMAC_8667 
+1.491           IVPHELM_STATE        pHelmIvP        PARK 
+1.589           PSHARE_INPUT_SUMMARY pShare          localhost:9301 
+1.651           PDEADMANPOST_STATUS  pDeadManPost    AppErrorFlag=false,Uptime=0.919229,cpuload=1.922,memory_kb=1196,memory_max_kb=1196,MOOSName=pDeadManPost,Publishing="",Subscribing="APPCAST_REQ,HEARTBEAT," 
+1.651           APPCAST              pDeadManPost    proc=pDeadManPost!@#iter=1!@#node=ual!@#iter=1!@#messages=Configuration:!@-------------------------------------!@      heart_var: HEARTBEAT!@    max_noheart: 15!@active_at_start: false!@    post_policy: reset!@      deadflags: (1)!@                [1] DEPLOY=false!@!@State:!@-------------------------------------!@  Elapsed Time: N/A!@Time Remaining: N/A!@    Heartbeats: 0!@Total Postings: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.690           PBASICCONTACTMGR_STATUS pBasicContactMgr AppErrorFlag=false,Uptime=1.16278,cpuload=0.6098,memory_kb=1344,memory_max_kb=1344,MOOSName=pBasicContactMgr,Publishing="",Subscribing="APPCAST_REQ,BCM_ALERT_REQUEST,BCM_DISPLAY_RADII,CONTACT_RESOLVED,NAV_HEADING,NAV_SPEED,NAV_X,NAV_Y,NODE_REPORT," 
+1.690           DB_TIME              MOOSDB_ual      1495610288.74277 
+1.690           DB_UPTIME            MOOSDB_ual      2.00015      
+1.690           DB_CLIENTS           MOOSDB_ual      uFldMessageHandler,pDeadManPost,uFldNodeBroker,pBasicContactMgr,pHostInfo,pHelmIvP,pMarinePID,pNodeReporter,pLogger,pShare,uProcessWatch, 
+1.691           DB_VARSUMMARY        MOOSDB_ual      AIS_REPORT           07:59:59.000         (write pending)      0.0 Hz ~  
+                   AIS_REPORT_LOCAL     07:59:59.000         (write pending)      0.0 Hz ~  
+                   APPCAST              15:18:08.703         pDeadManPost         0.0 Hz S  proc=pDeadManPost!@#it...
+APPCAST_REQ          15:18:08.368         uMAC_8667            1.2 Hz S  node=ual,app=all,durat...
+APPCAST_REQ_ALL      15:18:08.168         uMAC_8667            1.2 Hz S  node=all,app=all,durat...
+APPCAST_REQ_UAL      15:18:08.368         uMAC_8667            0.0 Hz S  node=ual,app=all,durat...
+AUX_MODE             07:59:59.000         (write pending)      0.0 Hz ~  
+                   AVOID                15:18:08.036         pHelmIvP             0.0 Hz S  true                
+BCM_ALERT_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   BCM_DISPLAY_RADII    07:59:59.000         (write pending)      0.0 Hz ~  
+                   CONTACTS_RECAP       15:18:08.742         pBasicContactMgr     0.0 Hz S                      
+CONTACT_RESOLVED     07:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           15:18:08.742         MOOSDB_ual           0.0 Hz S  uFldMessageHandler,pDe...
+DB_EVENT             15:18:08.519         MOOSDB_ual           5.2 Hz S  disconnected=uMAC_8667
+DB_QOS               15:18:06.739         MOOSDB#1             0.0 Hz S                      
+DB_RWSUMMARY         15:18:06.739         MOOSDB#1             0.0 Hz S                      
+DB_TIME              15:18:08.742         MOOSDB_ual           0.0 Hz D  1495610288.7         
+DB_UPTIME            15:18:08.742         MOOSDB_ual           0.0 Hz D  2.0                  
+DB_VARSUMMARY        15:18:06.739         MOOSDB#1             0.0 Hz S                      
+DEPLOY               15:18:08.036         pHelmIvP             0.0 Hz S  false               
+DESIRED_DEPTH        07:59:59.000         (write pending)      0.0 Hz ~  
+                   DESIRED_HEADING      15:18:08.292         pHelmIvP             0.0 Hz D  0.0                  
+DESIRED_SPEED        15:18:08.292         pHelmIvP             0.0 Hz D  0.0                  
+DESIRED_THRUST       15:18:08.704         pMarinePID           4.8 Hz D  0.0                  
+EXITED_NORMALLY      07:59:59.000         (write pending)      0.0 Hz ~  
+                   HEARTBEAT            07:59:59.000         (write pending)      0.0 Hz ~  
+                   HELM_MAP_CLEAR       07:59:59.000         (write pending)      0.0 Hz ~  
+                   HOST_INFO_REQUEST    07:59:59.000         (write pending)      0.0 Hz ~  
+                   IM200_STATUS         07:59:59.000         (write pending)      0.0 Hz ~  
+                   IVPHELM_ALLSTOP      15:18:08.292         pHelmIvP             0.0 Hz S  ManualOverride      
+IVPHELM_ALLSTOP_DEBUG 15:18:08.544         pHelmIvP             0.0 Hz S  ManualOverride      
+IVPHELM_CPU          15:18:08.543         pHelmIvP             0.0 Hz D  1.2                  
+IVPHELM_DOMAIN       15:18:08.036         pHelmIvP             0.0 Hz S  speed,0,5,26:course,0,...
+IVPHELM_MODESET      15:18:08.036         pHelmIvP             0.0 Hz S  MODE#---,ACTIVE#---,IN...
+IVPHELM_REGISTER     15:18:08.036         pHelmIvP             11.7Hz S  WPT_UPDATE          
+IVPHELM_REJOURNAL    07:59:59.000         (write pending)      0.0 Hz ~  
+                   IVPHELM_STATE        15:18:08.544         pHelmIvP             0.0 Hz S  PARK                
+IVPHELM_SUMMARY      07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOAD_WARNING         07:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     15:18:07.716         pLogger              0.0 Hz S  ./LOG_UAL_24_5_2017___...
+LOGGER_RESTART       07:59:59.000         (write pending)      0.0 Hz ~  
+                   MODE                 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           15:18:08.292         pHelmIvP             0.0 Hz S  pHelmIvP AllStop: Manu...
+MOOS_MANUAL_OVERIDE  07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_MANUAL_OVERRIDE 07:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_DEPTH            07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_HEADING          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_LAT              07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_LONG             07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_PITCH            07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_SPEED            07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_TRAJECTORY       07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_X                07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_Y                07:59:59.000         (write pending)      0.0 Hz ~  
+                   NAV_YAW              07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_ACK      07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_PING_0   07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_BROKER_PING_1   07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_MESSAGE         07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT          07:59:59.000         (write pending)      0.0 Hz ~  
+                   NODE_REPORT_LOCAL    15:18:08.329         pNodeReporter        0.0 Hz S  NAME=ual,TYPE=KAYAK,MO...
+NODE_REPORT_LOCAL_FIRST 15:18:08.329         pNodeReporter        0.0 Hz S  NAME=ual,TYPE=KAYAK,MO...
+PBASICCONTACTMGR_ITER_LEN 15:18:08.742         pBasicContactMgr     0.0 Hz D  0.0                  
+PBASICCONTACTMGR_STATUS 15:18:08.742         pBasicContactMgr     0.0 Hz S  AppErrorFlag=false,Upt...
+PDEADMANPOST_ITER_LEN 15:18:08.703         pDeadManPost         0.0 Hz D  0.0                  
+PDEADMANPOST_STATUS  15:18:08.703         pDeadManPost         0.0 Hz S  AppErrorFlag=false,Upt...
+PHELMIVP_ITER_GAP    15:18:08.543         pHelmIvP             0.0 Hz D  1.0                  
+PHELMIVP_ITER_LEN    15:18:08.544         pHelmIvP             0.0 Hz D  0.0                  
+PHELMIVP_STATUS      15:18:08.292         pHelmIvP             0.0 Hz S  AppErrorFlag=false,Upt...
+PHI_HOST_INFO        07:59:59.000         (write pending)      0.0 Hz ~  
+                   PHOSTINFO_STATUS     07:59:59.000         (write pending)      0.0 Hz ~  
+                   PID_VERBOSE          07:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_CMD          15:18:08.036         pHelmIvP             0.0 Hz S  COPY_FILE_REQUEST = ta...
+PLOGGER_STATUS       15:18:07.919         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PMARINEPID_STATUS    15:18:07.984         pMarinePID           0.0 Hz S  AppErrorFlag=false,Upt...
+PNODEREPORTER_ITER_LEN 15:18:08.329         pNodeReporter        0.0 Hz D  0.0                  
+PNODEREPORTER_STATUS 15:18:08.328         pNodeReporter        0.0 Hz S  AppErrorFlag=false,Upt...
+PNR_PAUSE            07:59:59.000         (write pending)      0.0 Hz ~  
+                   PROC_WATCH_EVENT     15:18:07.513         uProcessWatch        0.0 Hz S  Noted to be present: [...
+PROC_WATCH_SUMMARY   15:18:08.516         uProcessWatch        0.0 Hz S                      
+PROC_WATCH_TIME_WARP 15:18:07.513         uProcessWatch        0.0 Hz D  1.0                  
+PSHARE_CMD           15:18:08.336         uFldNodeBroker       0.0 Hz S  cmd=output,src_name=NO...
+PSHARE_INPUT_SUMMARY 15:18:08.642         pShare               0.0 Hz S  localhost:9301      
+PSHARE_OUTPUT_SUMMARY 15:18:08.642         pShare               0.0 Hz S  NODE_BROKER_PING_0->NO...
+PSHARE_STATUS        15:18:07.633         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+RESTART_HELM         07:59:59.000         (write pending)      0.0 Hz ~  
+                   RETURN               15:18:08.036         pHelmIvP             0.0 Hz S  false               
+RETURN_UPDATES       07:59:59.000         (write pending)      0.0 Hz ~  
+                   SPEED_FACTOR         07:59:59.000         (write pending)      0.0 Hz ~  
+                   SURVEY               15:18:08.036         pHelmIvP             0.0 Hz S  true                
+THRUST_MODE_REVERSE  07:59:59.000         (write pending)      0.0 Hz ~  
+                   UFLDMESSAGEHANDLER_STATUS 07:59:59.000         (write pending)      0.0 Hz ~  
+                   UFLDNODEBROKER_STATUS 07:59:59.000         (write pending)      0.0 Hz ~  
+                   UMAC_8667_STATUS     15:18:07.560         uMAC_8667            0.0 Hz S  AppErrorFlag=false,Upt...
+UPROCESSWATCH_ITER_LEN 15:18:08.516         uProcessWatch        0.0 Hz D  0.0                  
+UPROCESSWATCH_STATUS 15:18:08.516         uProcessWatch        0.0 Hz S  AppErrorFlag=false,Upt...
+USIMMARINE_STATUS    07:59:59.000         (write pending)      0.0 Hz ~  
+                   WPT_UPDATE           07:59:59.000         (write pending)      0.0 Hz ~  
+                    
+1.691           DB_QOS               MOOSDB_ual      pBasicContactMgr=0:0.314951:0.160933:0,pDeadManPost=0:0.180006:0.180006:0,pHelmIvP=0:0.308037:0.196934:0,pHostInfo=0:0.0839233:0.0839233:0,pLogger=0:0.252008:0.133991:0,pMarinePID=0:0.17786:0.0839233:0,pNodeReporter=0:0.226021:0.101089:0,pShare=0:0.216961:0.191927:0,uFldMessageHandler=0:0.237942:0.237942:0,uFldNodeBroker=0:0.125885:0.125885:0,uProcessWatch=0:0.210047:0.12207:0, 
+1.691           APPCAST              pBasicContactMgr proc=pBasicContactMgr!@#iter=1!@#node=ual!@#iter=1!@#messages=DisplayRadii:              0!@Deriving X/Y from Lat/Lon: 0!@!@Alert Configurations (1):!@---------------------Alert ID = trail!@  VARNAME   = TRAIL_INFO!@  PATTERN   = name=$[VNAME]#contact=mokai!@  RANGE     = 140, gray70!@  CPA_RANGE = 35, gray30!@!@Alert Status Summary: !@----------------------!@       List: !@    Alerted: !@  UnAlerted: !@    Retired: !@      Recap: !@!@Contact Status Summary:!@-----------------------!@Contact      Range     Alerts     Alerts     Alerts  !@            Actual     Total      Active     Resolved!@-------     ------     ------     ------     --------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.691           DB_RWSUMMARY         MOOSDB_ual      uFldMessageHandler=APPCAST_REQ:NODE_MESSAGE&,pDeadManPost=APPCAST_REQ:HEARTBEAT&APPCAST:PDEADMANPOST_ITER_LEN:PDEADMANPOST_STATUS,uFldNodeBroker=APPCAST_REQ:NODE_BROKER_ACK:PHI_HOST_INFO&PSHARE_CMD,pBasicContactMgr=APPCAST_REQ:BCM_ALERT_REQUEST:BCM_DISPLAY_RADII:CONTACT_RESOLVED:NAV_HEADING:NAV_SPEED:NAV_X:NAV_Y:NODE_REPORT&CONTACTS_RECAP:PBASICCONTACTMGR_ITER_LEN:PBASICCONTACTMGR_STATUS,pHostInfo=APPCAST_REQ:HOST_INFO_REQUEST:PSHARE_INPUT_SUMMARY&,pHelmIvP=AIS_REPORT:AIS_REPORT_LOCAL:APPCAST_REQ:DB_CLIENTS:DEPLOY:HELM_MAP_CLEAR:IVPHELM_REJOURNAL:IVPHELM_STATE:MODE:MOOS_MANUAL_OVERIDE:MOOS_MANUAL_OVERRIDE:NAV_DEPTH:NAV_HEADING:NAV_SPEED:NAV_X:NAV_Y:NODE_REPORT:NODE_REPORT_LOCAL:RESTART_HELM:RETURN:RETURN_UPDATES:SURVEY:WPT_UPDATE&APPCAST:AVOID:DEPLOY:DESIRED_HEADING:DESIRED_SPEED:IVPHELM_ALLSTOP:IVPHELM_ALLSTOP_DEBUG:IVPHELM_CPU:IVPHELM_DOMAIN:IVPHELM_MODESET:IVPHELM_REGISTER:IVPHELM_STATE:MOOS_DEBUG:PHELMIVP_ITER_GAP:PHELMIVP_ITER_LEN:PHELMIVP_STATUS:PLOGGER_CMD:RETURN:SURVEY,pMarinePID=DESIRED_DEPTH:DESIRED_HEADING:DESIRED_SPEED:MOOS_MANUAL_OVERIDE:MOOS_MANUAL_OVERRIDE:NAV_DEPTH:NAV_HEADING:NAV_PITCH:NAV_SPEED:NAV_YAW:PID_VERBOSE:SPEED_FACTOR&DESIRED_THRUST:MOOS_DEBUG:PMARINEPID_STATUS,pNodeReporter=APPCAST_REQ:AUX_MODE:IVPHELM_ALLSTOP:IVPHELM_STATE:IVPHELM_SUMMARY:LOAD_WARNING:NAV_DEPTH:NAV_HEADING:NAV_LAT:NAV_LONG:NAV_PITCH:NAV_SPEED:NAV_TRAJECTORY:NAV_X:NAV_Y:NAV_YAW:PNR_PAUSE:THRUST_MODE_REVERSE&APPCAST:NODE_REPORT_LOCAL:NODE_REPORT_LOCAL_FIRST:PNODEREPORTER_ITER_LEN:PNODEREPORTER_STATUS,pLogger=AIS_REPORT:AIS_REPORT_LOCAL:APPCAST:APPCAST_REQ:APPCAST_REQ_ALL:AUX_MODE:BCM_ALERT_REQUEST:BCM_DISPLAY_RADII:CONTACT_RESOLVED:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_DEPTH:DESIRED_HEADING:DESIRED_SPEED:EXITED_NORMALLY:HELM_MAP_CLEAR:HOST_INFO_REQUEST:IM200_STATUS:IVPHELM_ALLSTOP:IVPHELM_REGISTER:IVPHELM_REJOURNAL:IVPHELM_STATE:IVPHELM_SUMMARY:LOAD_WARNING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_MANUAL_OVERIDE:MOOS_MANUAL_OVERRIDE:MOOS_SYSTEM:NAV_DEPTH:NAV_HEADING:NAV_LAT:NAV_LONG:NAV_PITCH:NAV_SPEED:NAV_TRAJECTORY:NAV_X:NAV_Y:NAV_YAW:NODE_BROKER_ACK:NODE_REPORT:NODE_REPORT_LOCAL:PBASICCONTACTMGR_STATUS:PDEADMANPOST_STATUS:PHELMIVP_STATUS:PHI_HOST_INFO:PHOSTINFO_STATUS:PID_VERBOSE:PLOGGER_CMD:PLOGGER_STATUS:PMARINEPID_STATUS:PNODEREPORTER_STATUS:PNR_PAUSE:PROC_WATCH_EVENT:PROC_WATCH_TIME_WARP:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_STATUS:RESTART_HELM:SPEED_FACTOR:THRUST_MODE_REVERSE:UFLDMESSAGEHANDLER_STATUS:UFLDNODEBROKER_STATUS:UMAC_8667_STATUS:USIMMARINE_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=NODE_BROKER_PING_0:NODE_BROKER_PING_1:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS,uProcessWatch=APPCAST_REQ:DB_CLIENTS:EXITED_NORMALLY:IM200_STATUS:PBASICCONTACTMGR_STATUS:PDEADMANPOST_STATUS:PHELMIVP_STATUS:PHOSTINFO_STATUS:PLOGGER_STATUS:PMARINEPID_STATUS:PNODEREPORTER_STATUS:PSHARE_STATUS:UFLDMESSAGEHANDLER_STATUS:UFLDNODEBROKER_STATUS:USIMMARINE_STATUS&APPCAST:PROC_WATCH_EVENT:PROC_WATCH_SUMMARY:PROC_WATCH_TIME_WARP:UPROCESSWATCH_ITER_LEN:UPROCESSWATCH_STATUS 
+1.742           IVPHELM_STATE        pHelmIvP        PARK 
+1.779           NODE_REPORT_LOCAL    pNodeReporter   NAME=ual,TYPE=KAYAK,MODE=PARK,ALLSTOP=ManualOverride,INDEX=1,TIME=1495610288.83,LENGTH=4 
+1.779           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=2!@#node=ual!@#iter=2!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: ual!@     Vehicle type: KAYAK!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: !@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 2!@ Latest Report: NAME=ual,TYPE=KAYAK,MODE=PARK,!@                ALLSTOP=ManualOverride,INDEX=1,TIME=1495610288.83,!@                LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.936           UFLDMESSAGEHANDLER_STATUS uFldMessageHandler AppErrorFlag=false,Uptime=0.99556,cpuload=0.378,memory_kb=1240,memory_max_kb=1240,MOOSName=uFldMessageHandler,Publishing="",Subscribing="APPCAST_REQ,NODE_MESSAGE," 
+1.936           APPCAST              uFldMessageHandler proc=uFldMessageHandler!@#iter=1!@#node=ual!@#iter=1!@#messages=Overall Totals Summary!@======================================!@   Total Received Valid: 0!@                Invalid: 0!@               Rejected: 0!@    Time since last Msg: N/A!@!@Per Source Node Summary!@======================================!@Source  Total  Elapsed  Variable  Value!@------  -----  -------  --------  -----!@!@Last Few Messages: (oldest to newest) !@======================================!@Valid Mgs: !@  NONE  !@Invalid Mgs: !@  NONE  !@Rejected Mgs: !@  NONE  !@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.996           IVPHELM_STATE        pHelmIvP        PARK 
+2.075           PHOSTINFO_STATUS     pHostInfo       AppErrorFlag=false,Uptime=1.6607,cpuload=0.09643,memory_kb=1292,memory_max_kb=1292,MOOSName=pHostInfo,Publishing="",Subscribing="APPCAST_REQ,HOST_INFO_REQUEST,PSHARE_INPUT_SUMMARY," 
+0.984           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+0.984           RETURN               pHelmIvP:HELM_VAR_INIT false 
+0.984           SURVEY               pHelmIvP:HELM_VAR_INIT true 
+0.984           AVOID                pHelmIvP:HELM_VAR_INIT true 
+0.984           IVPHELM_DOMAIN       pHelmIvP        speed,0,5,26:course,0,359,360 
+0.984           IVPHELM_MODESET      pHelmIvP        MODE#---,ACTIVE#---,INACTIVE#ACTIVE,RETURNING#ACTIVE,SURVEYING 
+1.276           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=ual,TYPE=KAYAK,MODE=PARK,ALLSTOP=ManualOverride,TIME=1495610288.33,LENGTH=4 
+1.316           APPCAST_REQ_UAL      uMAC_8667       node=ual,app=all,duration=0.1,key=uMAC_8667startup,thresh=any 
+1.464           UPROCESSWATCH_STATUS uProcessWatch   AppErrorFlag=false,Uptime=1.66402,cpuload=0.1403,memory_kb=1260,memory_max_kb=1260,MOOSName=uProcessWatch,Publishing="PROC_WATCH_EVENT,PROC_WATCH_TIME_WARP,",Subscribing="APPCAST_REQ,DB_CLIENTS,EXITED_NORMALLY,IM200_STATUS,PBASICCONTACTMGR_STATUS,PDEADMANPOST_STATUS,PHELMIVP_STATUS,PHOSTINFO_STATUS,PLOGGER_STATUS,PMARINEPID_STATUS,PNODEREPORTER_STATUS,PSHARE_STATUS,UFLDMESSAGEHANDLER_STATUS,UFLDNODEBROKER_STATUS,USIMMARINE_STATUS," 
+1.464           PROC_WATCH_SUMMARY   uProcessWatch    
+1.464           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00000      
+1.589           PSHARE_OUTPUT_SUMMARY pShare          NODE_BROKER_PING_0->NODE_BROKER_PING:192.168.1.114:9300, NODE_BROKER_PING_1->NODE_BROKER_PING:localhost:9300 
+1.690           CONTACTS_RECAP       pBasicContactMgr  
+1.690           PBASICCONTACTMGR_ITER_LEN pBasicContactMgr 0.00004      
+1.778           PNODEREPORTER_ITER_GAP pNodeReporter   1.00451      
+1.779           PNODEREPORTER_ITER_LEN pNodeReporter   0.00031      
+1.936           UMH_SUMMARY_MSGS     uFldMessageHandler total=0,valid=0,rejected=0 
+1.936           UFLDMESSAGEHANDLER_ITER_LEN uFldMessageHandler 0.00005      
+1.996           PHELMIVP_ITER_GAP    pHelmIvP        1.01412      
+1.996           IVPHELM_CPU          pHelmIvP        0.27056      
+1.996           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+1.996           PHELMIVP_ITER_LEN    pHelmIvP        0.00020      
+2.156           PDEADMANPOST_ITER_GAP pDeadManPost    1.01788      
+2.156           PDEADMANPOST_ITER_LEN pDeadManPost    0.00005      
+2.166           DESIRED_THRUST       pMarinePID      0.00000      
+2.191           CONTACTS_RECAP       pBasicContactMgr  
+2.191           PBASICCONTACTMGR_ITER_LEN pBasicContactMgr 0.00004      
+2.250           PHELMIVP_ITER_GAP    pHelmIvP        1.01936      
+2.250           IVPHELM_CPU          pHelmIvP        0.27056      
+2.250           IVPHELM_STATE        pHelmIvP        PARK 
+2.250           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.250           PHELMIVP_ITER_LEN    pHelmIvP        0.00013      
+2.266           DESIRED_THRUST       pMarinePID      0.00000      
+2.271           UFLDMESSAGEHANDLER_ITER_LEN uFldMessageHandler 0.00005      
+2.282           PNODEREPORTER_ITER_GAP pNodeReporter   1.00638      
+2.282           NODE_REPORT_LOCAL    pNodeReporter   NAME=ual,TYPE=KAYAK,MODE=PARK,ALLSTOP=ManualOverride,INDEX=2,TIME=1495610289.33,LENGTH=4 
+2.282           PNODEREPORTER_ITER_LEN pNodeReporter   0.00007      
+2.287           UFLDNODEBROKER_STATUS uFldNodeBroker  AppErrorFlag=false,Uptime=1.66281,cpuload=0.0902,memory_kb=1224,memory_max_kb=1224,MOOSName=uFldNodeBroker,Publishing="PSHARE_CMD,",Subscribing="APPCAST_REQ,NODE_BROKER_ACK,PHI_HOST_INFO," 
+2.287           PSHARE_CMD           uFldNodeBroker  cmd=output,src_name=NODE_BROKER_PING_0,dest_name=NODE_BROKER_PING,route=192.168.1.114:9300 
+2.287           PSHARE_CMD           uFldNodeBroker  cmd=output,src_name=NODE_BROKER_PING_1,dest_name=NODE_BROKER_PING,route=localhost:9300 
+2.287           APPCAST              uFldNodeBroker  proc=uFldNodeBroker!@#iter=1!@#node=ual!@#iter=1!@#messages=!@  Total OK  PHI_HOST_INFO    received: 0!@  Total BAD PHI_HOST_INFO    received: 0!@  Total HOST_INFO changes    received: 0!@  Total          PSHARE_CMD    posted: 4!@  Total BAD NODE_BROKER_ACK  received: 0!@!@===========================================================!@             Vehicle Node Information:!@===========================================================!@!@     Community: ual!@        HostIP: !@   Port MOOSDB: !@     Time Warp: !@   TryHost IPs: 192.168.1.114!@      IRoutes: !@===========================================================!@            Shoreside Node(s) Information:!@===========================================================!@!@Community                      Pings  Pings  IP       Time!@Name       Route               Sent   Acked  Address  Warp!@---------  ------------------  -----  -----  -------  ----!@           192.168.1.114:9300  0      0                   !@           localhost:9300      0      0                   !@!@Phase Completion Summary:!@------------------------------------!@ Phase 1: (N) Valid Host information retrieved (iroutes).!@ Phase 2: (Y) Valid TryHosts (2) configured.!@ Phase 3: (N) NODE_BROKER_PINGS are being sent to TryHosts.!@ Phase 4: (N) A Valid NODE_BROKER_ACK has been received.!@ Phase 5: (N) pShare requested to share user vars with shoreside.!@*Hint: Phase 1 problem. Check status/output of pHostInfo.              !@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.371           DESIRED_THRUST       pMarinePID      0.00000      
+2.407           PDEADMANPOST_ITER_GAP pDeadManPost    1.00459      
+2.407           PDEADMANPOST_ITER_LEN pDeadManPost    0.00004      
+2.432           PHI_HOST_INFO        pHostInfo       community=ual,hostip=10.122.186.18,port_db=9001,pshare_iroutes=10.122.186.18:9301,hostip_alts=,timewarp=1 
+2.432           APPCAST              pHostInfo       proc=pHostInfo!@#iter=1!@#node=ual!@#iter=1!@#messages=!@  PHI_HOST_IP:         10.122.186.18[0m!@  PHI_HOST_IP_ALL:     10.122.186.18!@!@  PHI_HOST_IP_VERBOSE: OSX_WI-FI=10.122.186.18!@!@  PHI_HOST_PORT:       9001!@  PHI_PSHARES_IROUTES: localhost:9301!@  PHI_HOST_INFO:       community=ual,hostip=10.122.186.18,!@                       port_db=9001,!@                       pshare_iroutes=10.122.186.18:9301,!@                       hostip_alts=,timewarp=1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.468           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+2.468           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00014      
+2.472           DESIRED_THRUST       pMarinePID      0.00000      
+2.501           PHELMIVP_ITER_GAP    pHelmIvP        1.00175      
+2.501           IVPHELM_CPU          pHelmIvP        0.14161      
+2.501           IVPHELM_STATE        pHelmIvP        PARK 
+2.501           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.501           PHELMIVP_ITER_LEN    pHelmIvP        0.00026      
+2.573           DESIRED_THRUST       pMarinePID      0.00000      
+2.586           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=2.68816,cpuload=0.1727,memory_kb=1404,memory_max_kb=1404,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="NODE_BROKER_PING_0,NODE_BROKER_PING_1,PSHARE_CMD," 
+2.606           UFLDMESSAGEHANDLER_ITER_LEN uFldMessageHandler 0.00013      
+2.614           PSHARE_OUTPUT_SUMMARY pShare          NODE_BROKER_PING_0->NODE_BROKER_PING:192.168.1.114:9300, NODE_BROKER_PING_1->NODE_BROKER_PING:localhost:9300 
+2.614           PSHARE_INPUT_SUMMARY pShare          localhost:9301 
+2.657           PDEADMANPOST_ITER_GAP pDeadManPost    1.00151      
+2.657           PDEADMANPOST_ITER_LEN pDeadManPost    0.00012      
+2.674           DESIRED_THRUST       pMarinePID      0.00000      
+2.694           CONTACTS_RECAP       pBasicContactMgr  
+2.694           PBASICCONTACTMGR_ITER_LEN pBasicContactMgr 0.00010      
+2.752           PHELMIVP_ITER_GAP    pHelmIvP        1.00546      
+2.752           IVPHELM_CPU          pHelmIvP        0.14161      
+2.752           IVPHELM_STATE        pHelmIvP        PARK 
+2.752           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.752           PHELMIVP_ITER_LEN    pHelmIvP        0.00021      
+2.776           DESIRED_THRUST       pMarinePID      0.00000      
+2.782           PNODEREPORTER_ITER_GAP pNodeReporter   1.00096      
+2.782           NODE_REPORT_LOCAL    pNodeReporter   NAME=ual,TYPE=KAYAK,MODE=PARK,ALLSTOP=ManualOverride,INDEX=3,TIME=1495610289.83,LENGTH=4 
+2.782           PNODEREPORTER_ITER_LEN pNodeReporter   0.00011      
+2.881           DESIRED_THRUST       pMarinePID      0.00000      
+2.897           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=2.89735,cpuload=0.5078,memory_kb=1532,memory_max_kb=1532,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="AIS_REPORT,AIS_REPORT_LOCAL,APPCAST,APPCAST_REQ,APPCAST_REQ_ALL,APPCAST_REQ_UAL,AUX_MODE,AVOID,BCM_ALERT_REQUEST,BCM_DISPLAY_RADII,CONTACTS_RECAP,CONTACT_RESOLVED,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DEPLOY,DESIRED_DEPTH,DESIRED_HEADING,DESIRED_SPEED,DESIRED_THRUST,EXITED_NORMALLY,HEARTBEAT,HELM_MAP_CLEAR,HOST_INFO_REQUEST,IM200_STATUS,IVPHELM_ALLSTOP,IVPHELM_ALLSTOP_DEBUG,IVPHELM_CPU,IVPHELM_DOMAIN,IVPHELM_MODESET,IVPHELM_REGISTER,IVPHELM_REJOURNAL,IVPHELM_STATE,IVPHELM_SUMMARY,LOAD_WARNING,LOGGER_DIRECTORY,LOGGER_RESTART,MODE,MOOS_DEBUG,MOOS_MANUAL_OVERIDE,MOOS_MANUAL_OVERRIDE,MOOS_SYSTEM,NAV_DEPTH,NAV_HEADING,NAV_LAT,NAV_LONG,NAV_PITCH,NAV_SPEED,NAV_TRAJECTORY,NAV_X,NAV_Y,NAV_YAW,NODE_BROKER_ACK,NODE_BROKER_PING_0,NODE_BROKER_PING_1,NODE_MESSAGE,NODE_REPORT,NODE_REPORT_LOCAL,NODE_REPORT_LOCAL_FIRST,PBASICCONTACTMGR_ITER_LEN,PBASICCONTACTMGR_STATUS,PDEADMANPOST_ITER_GAP,PDEADMANPOST_ITER_LEN,PDEADMANPOST_STATUS,PHELMIVP_ITER_GAP,PHELMIVP_ITER_LEN,PHELMIVP_STATUS,PHI_HOST_INFO,PHOSTINFO_STATUS,PID_VERBOSE,PLOGGER_CMD,PLOGGER_STATUS,PMARINEPID_STATUS,PNODEREPORTER_ITER_GAP,PNODEREPORTER_ITER_LEN,PNODEREPORTER_STATUS,PNR_PAUSE,PROC_WATCH_EVENT,PROC_WATCH_SUMMARY,PROC_WATCH_TIME_WARP,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,RESTART_HELM,RETURN,RETURN_UPDATES,SPEED_FACTOR,SURVEY,THRUST_MODE_REVERSE,UFLDMESSAGEHANDLER_ITER_LEN,UFLDMESSAGEHANDLER_STATUS,UFLDNODEBROKER_STATUS,UMAC_8667_STATUS,UMH_SUMMARY_MSGS,UPROCESSWATCH_ITER_LEN,UPROCESSWATCH_STATUS,USIMMARINE_STATUS,WPT_UPDATE,",LogAuxSrc=true 
+2.908           PDEADMANPOST_ITER_GAP pDeadManPost    1.00474      
+2.908           PDEADMANPOST_ITER_LEN pDeadManPost    0.00006      
+2.939           UFLDMESSAGEHANDLER_ITER_LEN uFldMessageHandler 0.00010      
+2.984           PMARINEPID_STATUS    pMarinePID      AppErrorFlag=false,Uptime=2.76824,cpuload=0.2035,memory_kb=1336,memory_max_kb=1336,MOOSName=pMarinePID,Publishing="DESIRED_THRUST,MOOS_DEBUG,PMARINEPID_STATUS,",Subscribing="DESIRED_DEPTH,DESIRED_HEADING,DESIRED_SPEED,MOOS_MANUAL_OVERIDE,MOOS_MANUAL_OVERRIDE,NAV_DEPTH,NAV_HEADING,NAV_PITCH,NAV_SPEED,NAV_YAW,PID_VERBOSE,SPEED_FACTOR," 
+2.984           DESIRED_THRUST       pMarinePID      0.00000      
+3.003           PHELMIVP_ITER_GAP    pHelmIvP        1.00483      
+3.003           IVPHELM_CPU          pHelmIvP        0.18187      
+3.003           IVPHELM_STATE        pHelmIvP        PARK 
+3.003           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.003           PHELMIVP_ITER_LEN    pHelmIvP        0.00015      
+3.087           DESIRED_THRUST       pMarinePID      0.00000      
