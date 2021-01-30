@@ -7,4 +7,4 @@
 - Goal:
   - Learn the infrastructure of Autonomous Ocean Sensing utilizing artificial intelligence, domain knowledge of Ocean science, and unmanned surface vehicle operation. The workshop includes lectures, tutorial and field testing of an autonomous surface vehicle system.
   
-<img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/img1.png" height=200> <img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/img2.png" height=200> <img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/certi.png" height=200>
+<img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/img1.png" height=150> <img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/img2.png" height=150> <img src="https://raw.githubusercontent.com/shannon112/moos-ivp_Exercise/master/certi.png" height=150> <img src="https://clearpathrobotics.com/wp-content/uploads/2015/07/kingfisher.jpg" height=150>
